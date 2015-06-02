@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:c66fc409-a644-4946-bb27-007f5d00a613(jetbrains.mps.lang.migration.runtime.util)/4508017205454606764">
+    <file name="MigrationsUtil.java">
+      <node id="4508017205454606767" at="26,79,27,71" concept="5" />
+      <node id="4508017205454606782" at="29,41,30,54" concept="6" />
+      <node id="4508017205454606801" at="35,56,36,120" concept="6" />
+      <node id="4508017205454606845" at="39,98,40,55" concept="5" />
+      <node id="4508017205454606851" at="40,55,41,0" concept="8" />
+      <node id="4508017205454606852" at="41,0,42,23" concept="7" />
+      <node id="4508017205454606856" at="43,31,44,19" concept="6" />
+      <node id="4508017205454606861" at="45,5,46,0" concept="8" />
+      <node id="4508017205454606862" at="46,0,47,47" concept="7" />
+      <node id="4508017205454606866" at="48,30,49,24" concept="1" />
+      <node id="4508017205454606875" at="52,42,53,177" concept="1" />
+      <node id="4508017205454606893" at="54,7,55,19" concept="6" />
+      <node id="4508017205454606898" at="56,5,57,42" concept="6" />
+      <node id="4508017205454606912" at="59,87,60,109" concept="5" />
+      <node id="4508017205454606922" at="61,97,62,57" concept="5" />
+      <node id="4508017205454606928" at="62,57,63,71" concept="5" />
+      <node id="4508017205454606938" at="63,71,64,0" concept="8" />
+      <node id="4508017205454606939" at="64,0,65,29" concept="1" />
+      <node id="4508017205454606945" at="65,29,66,59" concept="1" />
+      <node id="4508017205454606951" at="66,59,67,0" concept="8" />
+      <node id="4508017205454606954" at="68,37,69,90" concept="1" />
+      <node id="4508017205454606971" at="71,5,72,18" concept="6" />
+      <node id="4508017205454606980" at="74,84,75,174" concept="6" />
+      <node id="4508017205454607012" at="77,68,78,191" concept="5" />
+      <node id="4508017205454607025" at="78,191,79,57" concept="1" />
+      <node id="4508017205454607030" at="79,57,80,24" concept="6" />
+      <node id="4508017205454607049" at="84,48,85,37" concept="6" />
+      <node id="4508017205454606764" at="89,0,90,0" concept="9" trace="LOG" />
+      <node id="4508017205454606780" at="29,0,32,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/module/SModule;)Z" />
+      <node id="4508017205454606795" at="35,0,38,0" concept="10" trace="isModuleMigrateable#(Lorg/jetbrains/mps/openapi/module/SModule;)Z" />
+      <node id="4508017205454606854" at="42,23,45,5" concept="3" />
+      <node id="4508017205454606864" at="47,47,50,5" concept="3" />
+      <node id="4508017205454606875" at="51,41,54,7" concept="0" />
+      <node id="4508017205454606875" at="51,41,54,7" concept="3" />
+      <node id="4508017205454606952" at="67,0,70,7" concept="3" />
+      <node id="4508017205454606978" at="74,0,77,0" concept="10" trace="isApplied#(Ljetbrains/mps/lang/migration/runtime/base/MigrationScriptReference;Lorg/jetbrains/mps/openapi/module/SModule;)Z" />
+      <node id="4508017205454607047" at="84,0,87,0" concept="4" trace="accept#(Ljetbrains/mps/project/AbstractModule;)Z" />
+      <node id="4508017205454606775" at="27,71,32,29" concept="6" />
+      <node id="4508017205454607010" at="77,0,82,0" concept="10" trace="getModuleDependencies#(Lorg/jetbrains/mps/openapi/module/SModule;)Ljava/util/Set;" />
+      <node id="4508017205454607039" at="82,102,87,7" concept="6" />
+      <node id="4508017205454606873" at="50,5,56,5" concept="3" />
+      <node id="4508017205454607037" at="82,0,89,0" concept="10" trace="isAppliedForAllMyDeps#(Ljetbrains/mps/lang/migration/runtime/base/MigrationScriptReference;Lorg/jetbrains/mps/openapi/module/SModule;)Z" />
+      <node id="4508017205454606765" at="26,0,34,0" concept="10" trace="getMigrateableModulesFromProject#(Ljetbrains/mps/project/Project;)Ljava/lang/Iterable;" />
+      <node id="4508017205454606919" at="60,109,71,5" concept="2" />
+      <node id="4508017205454606910" at="59,0,74,0" concept="10" trace="getNextStepScripts#(Lorg/jetbrains/mps/openapi/module/SModule;)Ljava/lang/Iterable;" />
+      <node id="4508017205454606843" at="39,0,59,0" concept="10" trace="isMigrationNeeded#(Lorg/jetbrains/mps/openapi/language/SLanguage;ILorg/jetbrains/mps/openapi/module/SModule;)Z" />
+      <scope id="4508017205454606781" at="29,41,30,54" />
+      <scope id="4508017205454606800" at="35,56,36,120" />
+      <scope id="4508017205454606855" at="43,31,44,19" />
+      <scope id="4508017205454606865" at="48,30,49,24" />
+      <scope id="4508017205454606875" at="52,42,53,177" />
+      <scope id="4508017205454606953" at="68,37,69,90" />
+      <scope id="4508017205454606979" at="74,84,75,174" />
+      <scope id="4508017205454607048" at="84,48,85,37" />
+      <scope id="4508017205454606780" at="29,0,32,0">
+        <var name="it" id="4508017205454606780" />
+      </scope>
+      <scope id="4508017205454606795" at="35,0,38,0">
+        <var name="m" id="4508017205454606798" />
+      </scope>
+      <scope id="4508017205454606875" at="51,41,54,7" />
+      <scope id="4508017205454606978" at="74,0,77,0">
+        <var name="module" id="4508017205454607006" />
+        <var name="script" id="4508017205454607004" />
+      </scope>
+      <scope id="4508017205454607011" at="77,68,80,24">
+        <var name="dependencies" id="4508017205454607013" />
+      </scope>
+      <scope id="4508017205454607047" at="84,0,87,0">
+        <var name="it" id="4508017205454607047" />
+      </scope>
+      <scope id="4508017205454606874" at="51,41,55,19" />
+      <scope id="4508017205454607010" at="77,0,82,0">
+        <var name="module" id="4508017205454607032" />
+      </scope>
+      <scope id="4508017205454607038" at="82,102,87,7" />
+      <scope id="4508017205454606766" at="26,79,32,29">
+        <var name="modules" id="4508017205454606768" />
+      </scope>
+      <scope id="4508017205454607037" at="82,0,89,0">
+        <var name="module" id="4508017205454607057" />
+        <var name="script" id="4508017205454607055" />
+      </scope>
+      <scope id="4508017205454606765" at="26,0,34,0">
+        <var name="p" id="4508017205454606789" />
+      </scope>
+      <scope id="4508017205454606921" at="61,97,70,7">
+        <var name="currentLangVersion" id="4508017205454606923" />
+        <var name="ver" id="4508017205454606929" />
+      </scope>
+      <scope id="4508017205454606919" at="60,109,71,5">
+        <var name="lang" id="4508017205454606920" />
+      </scope>
+      <scope id="4508017205454606911" at="59,87,72,18">
+        <var name="result" id="4508017205454606913" />
+      </scope>
+      <scope id="4508017205454606910" at="59,0,74,0">
+        <var name="module" id="4508017205454606973" />
+      </scope>
+      <scope id="4508017205454606844" at="39,98,57,42">
+        <var name="currentVersion" id="4508017205454606846" />
+      </scope>
+      <scope id="4508017205454606843" at="39,0,59,0">
+        <var name="importVersion" id="4508017205454606904" />
+        <var name="language" id="4508017205454606902" />
+        <var name="module" id="4508017205454606906" />
+      </scope>
+      <unit id="4508017205454606780" at="28,52,32,5" name="jetbrains.mps.lang.migration.runtime.util.MigrationsUtil$1" />
+      <unit id="4508017205454607047" at="83,99,87,5" name="jetbrains.mps.lang.migration.runtime.util.MigrationsUtil$2" />
+      <unit id="4508017205454606764" at="25,0,91,0" name="jetbrains.mps.lang.migration.runtime.util.MigrationsUtil" />
+    </file>
+  </root>
+</debug-info>
+

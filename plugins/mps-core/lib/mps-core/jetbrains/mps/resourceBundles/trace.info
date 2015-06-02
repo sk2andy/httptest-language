@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <root nodeRef="r:5a1c73a7-6ef8-45c4-96b7-fef49633c51a(jetbrains.mps.resourceBundles)/2939287019638088102">
+    <file name="IconResourceBundle.java">
+      <unit id="2939287019638088102" at="7,0,9,0" name="jetbrains.mps.resourceBundles.IconResourceBundle" />
+    </file>
+  </root>
+  <root nodeRef="r:5a1c73a7-6ef8-45c4-96b7-fef49633c51a(jetbrains.mps.resourceBundles)/2939287019638088106">
+    <file name="PluginResourceBundle.java">
+      <node id="2939287019638088107" at="7,0,8,0" concept="0" trace="getKeys#()Ljava/lang/Iterable;" />
+      <node id="2939287019638088112" at="8,0,9,0" concept="0" trace="getResource#(Ljava/lang/String;)null" />
+      <scope id="2939287019638088107" at="7,0,8,0" />
+      <scope id="2939287019638088112" at="8,0,9,0">
+        <var name="key" id="2939287019638088116" />
+      </scope>
+      <unit id="2939287019638088106" at="6,0,10,0" name="jetbrains.mps.resourceBundles.PluginResourceBundle" />
+    </file>
+  </root>
+</debug-info>
+

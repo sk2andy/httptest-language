@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <root nodeRef="r:10fdc9c0-3531-4c38-94e3-3c27b44f4d31(StandaloneIDE)/8422422574708802219">
+    <file name="HTTPTest.xml">
+      <unit id="8422422574708802219" at="1,0,378,10" name="StandaloneIDE.HTTPTest" />
+    </file>
+  </root>
+  <root nodeRef="r:10fdc9c0-3531-4c38-94e3-3c27b44f4d31(StandaloneIDE)/8422422574708802356">
+    <file name="HTTPTestDistribution.xml">
+      <unit id="8422422574708802356" at="1,0,119,10" name="StandaloneIDE.HTTPTestDistribution" />
+    </file>
+  </root>
+</debug-info>
+

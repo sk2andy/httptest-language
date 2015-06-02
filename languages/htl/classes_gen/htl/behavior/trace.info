@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <root>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,32,0" name="htl.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="EXTRACTField_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="htl.behavior.EXTRACTField_BehaviorDescriptor" />
+    </file>
+    <file name="GETField_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="htl.behavior.GETField_BehaviorDescriptor" />
+    </file>
+    <file name="HTTPTest_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="htl.behavior.HTTPTest_BehaviorDescriptor" />
+    </file>
+    <file name="INNERField_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="htl.behavior.INNERField_BehaviorDescriptor" />
+    </file>
+    <file name="PARAMField_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="htl.behavior.PARAMField_BehaviorDescriptor" />
+    </file>
+    <file name="POSTField_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="htl.behavior.POSTField_BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

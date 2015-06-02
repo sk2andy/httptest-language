@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:a7ddffe7-e4bf-41ed-a047-d750f286de7c(htl.sandbox)/1464646648772623240">
+    <file name="GoogleTest.java">
+      <node id="1464646648772623240" at="11,36,12,40" concept="2" />
+      <node id="1464646648772623240" at="12,40,13,49" concept="2" />
+      <node id="1464646648772623240" at="13,49,14,0" concept="4" />
+      <node id="1464646648772623240" at="14,0,15,20" concept="3" />
+      <node id="1464646648772623240" at="17,62,18,39" concept="2" />
+      <node id="1464646648772623240" at="19,5,20,85" concept="2" />
+      <node id="1464646648772623240" at="20,85,21,48" concept="1" />
+      <node id="1464646648772623240" at="22,5,23,49" concept="2" />
+      <node id="1464646648772623240" at="23,49,24,62" concept="1" />
+      <node id="1464646648772623240" at="24,62,25,0" concept="4" />
+      <node id="1464646648772623240" at="25,0,26,20" concept="3" />
+      <node id="1464646648772623240" at="28,35,29,36" concept="2" />
+      <node id="1464646648772623240" at="29,36,30,49" concept="2" />
+      <node id="1464646648772623240" at="30,49,31,63" concept="1" />
+      <node id="1464646648772623240" at="31,63,32,0" concept="4" />
+      <node id="1464646648772623240" at="32,0,33,20" concept="3" />
+      <node id="1464646648772623240" at="36,53,37,74" concept="3" />
+      <node id="1464646648772623240" at="39,51,40,70" concept="3" />
+      <node id="1464646648772623240" at="36,0,39,0" concept="5" trace="postToInstagram#(Ljava/lang/String;)I" />
+      <node id="1464646648772623240" at="39,0,42,0" concept="5" trace="postToTwitter#(Ljava/lang/String;)I" />
+      <node id="1464646648772623240" at="18,39,22,5" concept="0" />
+      <node id="1464646648772623240" at="11,0,17,0" concept="5" trace="GetGoogle#()Ljava/lang/String;" />
+      <node id="1464646648772623240" at="28,0,35,0" concept="5" trace="GetYahoo#()Ljava/lang/String;" />
+      <node id="1464646648772623240" at="17,0,28,0" concept="5" trace="GetBing#(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="1464646648772623240" at="36,53,37,74" />
+      <scope id="1464646648772623240" at="39,51,40,70" />
+      <scope id="1464646648772623240" at="19,5,21,48">
+        <var name="paramList" id="1464646648772623240" />
+      </scope>
+      <scope id="1464646648772623240" at="36,0,39,0">
+        <var name="payload" id="1464646648772623240" />
+      </scope>
+      <scope id="1464646648772623240" at="39,0,42,0">
+        <var name="payload" id="1464646648772623240" />
+      </scope>
+      <scope id="1464646648772623240" at="11,36,15,20">
+        <var name="response" id="1464646648772623240" />
+        <var name="url" id="1464646648772623240" />
+      </scope>
+      <scope id="1464646648772623240" at="28,35,33,20">
+        <var name="response" id="1464646648772623240" />
+        <var name="url" id="1464646648772623240" />
+      </scope>
+      <scope id="1464646648772623240" at="11,0,17,0" />
+      <scope id="1464646648772623240" at="28,0,35,0" />
+      <scope id="1464646648772623240" at="17,62,26,20">
+        <var name="response" id="1464646648772623240" />
+        <var name="url" id="1464646648772623240" />
+      </scope>
+      <scope id="1464646648772623240" at="17,0,28,0">
+        <var name="param1" id="1464646648772623240" />
+        <var name="param2" id="1464646648772623240" />
+      </scope>
+      <unit id="1464646648772623240" at="8,0,44,0" name="htl.sandbox.GoogleTest" />
+    </file>
+  </root>
+  <root nodeRef="r:a7ddffe7-e4bf-41ed-a047-d750f286de7c(htl.sandbox)/4339990788227776688">
+    <file name="DropBoxTest.java">
+      <node id="4339990788227776688" at="10,40,11,73" concept="2" />
+      <node id="4339990788227776688" at="11,73,12,49" concept="2" />
+      <node id="4339990788227776688" at="12,49,13,87" concept="1" />
+      <node id="4339990788227776688" at="13,87,14,0" concept="4" />
+      <node id="4339990788227776688" at="14,0,15,20" concept="3" />
+      <node id="4339990788227776688" at="10,0,17,0" concept="5" trace="GetSampleFile#()Ljava/lang/String;" />
+      <scope id="4339990788227776688" at="10,40,15,20">
+        <var name="response" id="4339990788227776688" />
+        <var name="url" id="4339990788227776688" />
+      </scope>
+      <scope id="4339990788227776688" at="10,0,17,0" />
+      <unit id="4339990788227776688" at="7,0,20,0" name="htl.sandbox.DropBoxTest" />
+    </file>
+  </root>
+</debug-info>
+

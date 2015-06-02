@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="StandaloneIDE.HTTPTest" file="HTTPTest.xml" />
+  <dependency className="StandaloneIDE.HTTPTestDistribution" file="HTTPTestDistribution.xml" />
+</dependenciesRoot>
+

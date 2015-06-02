@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root nodeRef="r:f77c2bf1-6f5c-4cb2-b314-a84dd502542e(jetbrains.mps.resolve)/3671170675134061846">
+    <file name="IResolver.java">
+      <node id="3671170675134103978" at="11,0,20,0" concept="6" trace="resolve#(Lorg/jetbrains/mps/openapi/model/SReference;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/module/SRepository;)Z" />
+      <scope id="3671170675134103978" at="11,0,20,0">
+        <var name="reference" id="3671170675134103985" />
+        <var name="repository" id="3671170675134103988" />
+        <var name="sourceNode" id="3671170675134104082" />
+      </scope>
+      <unit id="3671170675134061846" at="10,0,21,0" name="jetbrains.mps.resolve.IResolver" />
+    </file>
+  </root>
+  <root nodeRef="r:f77c2bf1-6f5c-4cb2-b314-a84dd502542e(jetbrains.mps.resolve)/3671170675134061970">
+    <file name="ScopeResolver.java">
+      <node id="8342705757013350813" at="22,0,23,0" concept="10" trace="LOG" />
+      <node id="8342705757013337949" at="26,135,27,324" concept="7" />
+      <node id="3671170675134081204" at="28,34,29,19" concept="8" />
+      <node id="8342705757013347448" at="30,5,31,196" concept="7" />
+      <node id="3671170675134081225" at="34,32,35,62" concept="7" />
+      <node id="8342705757013350897" at="36,45,37,103" concept="1" />
+      <node id="3671170675134081245" at="37,103,38,23" concept="8" />
+      <node id="3671170675134081250" at="39,9,40,28" concept="7" />
+      <node id="3671170675134081254" at="40,28,41,92" concept="7" />
+      <node id="4365681323802964141" at="43,15,44,63" concept="1" />
+      <node id="5704387349312598636" at="45,33,46,75" concept="1" />
+      <node id="2342250705168348994" at="49,29,50,23" concept="8" />
+      <node id="2342250705168349047" at="51,9,52,67" concept="1" />
+      <node id="2342250705168349122" at="52,67,53,20" concept="8" />
+      <node id="3671170675134061972" at="23,0,25,0" concept="0" trace="ScopeResolver#()V" />
+      <node id="3671170675134081199" at="27,324,30,5" concept="5" />
+      <node id="2342250705168348984" at="48,9,51,9" concept="5" />
+      <node id="3671170675134081231" at="35,62,39,9" concept="5" />
+      <node id="5704387349312540949" at="42,34,47,11" concept="13" />
+      <node id="5969455427934195326" at="41,92,48,9" concept="5" />
+      <node id="3671170675134081221" at="33,0,55,0" concept="6" trace="compute#()Ljava/lang/Boolean;" />
+      <node id="8342705757013350881" at="31,196,55,7" concept="8" />
+      <node id="3671170675134081156" at="25,0,57,0" concept="6" trace="resolve#(Lorg/jetbrains/mps/openapi/model/SReference;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/module/SRepository;)Z" />
+      <scope id="3671170675134061975" at="23,26,23,26" />
+      <scope id="3671170675134081203" at="28,34,29,19" />
+      <scope id="5704387349312540951" at="43,15,44,63" />
+      <scope id="5704387349312540952" at="45,0,46,75">
+        <var name="t" id="5704387349312540954" />
+      </scope>
+      <scope id="5704387349312540958" at="45,33,46,75" />
+      <scope id="2342250705168348985" at="49,29,50,23" />
+      <scope id="3671170675134061972" at="23,0,25,0" />
+      <scope id="3671170675134081232" at="36,45,38,23" />
+      <scope id="5969455427934195327" at="42,34,47,11" />
+      <scope id="3671170675134081224" at="34,32,53,20">
+        <var name="refScope" id="3671170675134081226" />
+        <var name="resolveInfo" id="3671170675134081255" />
+        <var name="result" id="3671170675134081251" />
+      </scope>
+      <scope id="3671170675134081221" at="33,0,55,0" />
+      <scope id="3671170675134081163" at="26,135,55,7">
+        <var name="linkDeclaration" id="8342705757013337950" />
+        <var name="referentConcept" id="8342705757013347449" />
+      </scope>
+      <scope id="3671170675134081156" at="25,0,57,0">
+        <var name="reference" id="3671170675134081157" />
+        <var name="repository" id="3671170675134081159" />
+        <var name="sourceNode" id="3671170675134104144" />
+      </scope>
+      <unit id="3671170675134081219" at="32,65,55,5" name="jetbrains.mps.resolve.ScopeResolver$1" />
+      <unit id="3671170675134061970" at="21,0,58,0" name="jetbrains.mps.resolve.ScopeResolver" />
+    </file>
+  </root>
+  <root nodeRef="r:f77c2bf1-6f5c-4cb2-b314-a84dd502542e(jetbrains.mps.resolve)/3840495236046418263">
+    <file name="ResolverComponent.java">
+      <node id="3671170675134061814" at="18,0,19,0" concept="10" trace="INSTANCE" />
+      <node id="1802459475176463030" at="20,61,21,46" concept="7" />
+      <node id="1802459475176463047" at="21,46,22,48" concept="7" />
+      <node id="1802459475176463128" at="23,62,24,17" concept="8" />
+      <node id="1802459475176463136" at="26,62,27,18" concept="8" />
+      <node id="1802459475176463139" at="28,7,29,15" concept="8" />
+      <node id="3671170675134061866" at="32,0,33,0" concept="2" trace="myResolvers" />
+      <node id="3671170675134061988" at="33,0,34,0" concept="2" trace="myScopeResolver" />
+      <node id="3671170675134061886" at="34,30,35,69" concept="1" />
+      <node id="3671170675134061994" at="35,69,36,42" concept="1" />
+      <node id="1519428872448363243" at="40,27,41,63" concept="12" />
+      <node id="1519428872448363233" at="42,5,43,0" concept="9" />
+      <node id="1519428872448363226" at="43,0,44,20" concept="1" />
+      <node id="3671170675134076716" at="44,20,45,42" concept="1" />
+      <node id="3671170675134076743" at="48,25,49,45" concept="1" />
+      <node id="3671170675134061826" at="49,45,50,20" concept="1" />
+      <node id="3671170675134061910" at="52,47,53,60" concept="1" />
+      <node id="3671170675134061937" at="55,50,56,63" concept="1" />
+      <node id="1802459475176380684" at="58,72,59,49" concept="7" />
+      <node id="1802459475176380717" at="60,29,61,19" concept="8" />
+      <node id="2342250705168349135" at="64,68,65,20" concept="8" />
+      <node id="1802459475176380776" at="67,5,68,17" concept="8" />
+      <node id="1802459475176537110" at="70,90,71,128" concept="7" />
+      <node id="1802459475176537398" at="71,128,72,34" concept="7" />
+      <node id="1802459475176537407" at="73,28,74,29" concept="1" />
+      <node id="1802459475176537149" at="76,61,77,28" concept="1" />
+      <node id="1802459475176537372" at="77,28,78,32" concept="1" />
+      <node id="2855655749839247768" at="83,82,84,49" concept="7" />
+      <node id="2855655749839248585" at="85,29,86,19" concept="8" />
+      <node id="2855655749839267007" at="87,5,88,70" concept="8" />
+      <node id="1802459475176382654" at="90,49,91,20" concept="8" />
+      <node id="1802459475176463122" at="22,48,25,7" concept="5" />
+      <node id="1802459475176463130" at="25,7,28,7" concept="5" />
+      <node id="1519428872448363234" at="39,22,42,5" concept="5" />
+      <node id="3671170675134061842" at="52,0,55,0" concept="6" trace="addResolver#(Ljetbrains/mps/resolve/IResolver;)V" />
+      <node id="3671170675134061853" at="55,0,58,0" concept="6" trace="removeResolver#(Ljetbrains/mps/resolve/IResolver;)V" />
+      <node id="1802459475176380692" at="59,49,62,5" concept="5" />
+      <node id="2342250705168349131" at="63,71,66,7" concept="5" />
+      <node id="2855655749839247774" at="84,49,87,5" concept="5" />
+      <node id="1802459475176382649" at="90,0,93,0" concept="11" trace="getInstance#()Ljetbrains/mps/resolve/ResolverComponent;" />
+      <node id="3840495236046418265" at="34,0,38,0" concept="0" trace="ResolverComponent#()V" />
+      <node id="2855655749839292041" at="75,121,79,9" concept="5" />
+      <node id="3840495236046418280" at="47,0,52,0" concept="6" trace="dispose#()V" />
+      <node id="1802459475176380618" at="62,5,67,5" concept="4" />
+      <node id="1802459475176537128" at="74,29,80,7" concept="3" />
+      <node id="2855655749839221242" at="83,0,90,0" concept="6" trace="resolveScopesOnly#(Lorg/jetbrains/mps/openapi/model/SReference;Lorg/jetbrains/mps/openapi/module/SRepository;)Z" />
+      <node id="3840495236046418276" at="38,0,47,0" concept="6" trace="init#()V" />
+      <node id="1802459475176537403" at="72,34,81,5" concept="14" />
+      <node id="1802459475176462972" at="20,0,31,0" concept="6" trace="compare#(Lorg/jetbrains/mps/openapi/model/SReference;Lorg/jetbrains/mps/openapi/model/SReference;)I" />
+      <node id="1802459475176380576" at="58,0,70,0" concept="6" trace="resolve#(Lorg/jetbrains/mps/openapi/model/SReference;Lorg/jetbrains/mps/openapi/module/SRepository;)Z" />
+      <node id="1802459475176455916" at="19,0,32,0" concept="10" trace="REFERENCE_COMPARATOR" />
+      <node id="1802459475176537096" at="70,0,83,0" concept="6" trace="resolveScopesOnly#(Ljava/lang/Iterable;Lorg/jetbrains/mps/openapi/module/SRepository;)V" />
+      <scope id="1802459475176463127" at="23,62,24,17" />
+      <scope id="1802459475176463135" at="26,62,27,18" />
+      <scope id="1519428872448363235" at="40,27,41,63" />
+      <scope id="3671170675134061845" at="52,47,53,60" />
+      <scope id="3671170675134061856" at="55,50,56,63" />
+      <scope id="1802459475176380693" at="60,29,61,19" />
+      <scope id="2342250705168349132" at="64,68,65,20" />
+      <scope id="2855655749839247775" at="85,29,86,19" />
+      <scope id="1802459475176382652" at="90,49,91,20" />
+      <scope id="3840495236046418268" at="34,30,36,42" />
+      <scope id="3840495236046418283" at="48,25,50,20" />
+      <scope id="2855655749839292044" at="76,61,78,32" />
+      <scope id="3671170675134061842" at="52,0,55,0">
+        <var name="resolver" id="3671170675134061849" />
+      </scope>
+      <scope id="3671170675134061853" at="55,0,58,0">
+        <var name="resolver" id="3671170675134061857" />
+      </scope>
+      <scope id="1802459475176380621" at="63,71,66,7" />
+      <scope id="1802459475176382649" at="90,0,93,0" />
+      <scope id="3840495236046418265" at="34,0,38,0" />
+      <scope id="1802459475176537129" at="75,121,79,9" />
+      <scope id="3840495236046418280" at="47,0,52,0" />
+      <scope id="1802459475176380618" at="62,5,67,5">
+        <var name="nextResolver" id="1802459475176380619" />
+      </scope>
+      <scope id="2855655749839221246" at="83,82,88,70">
+        <var name="sourceNode" id="2855655749839247769" />
+      </scope>
+      <scope id="3840495236046418279" at="39,22,45,42" />
+      <scope id="1802459475176537128" at="74,29,80,7">
+        <var name="iterator" id="1802459475176537156" />
+      </scope>
+      <scope id="1802459475176537405" at="73,28,80,7" />
+      <scope id="2855655749839221242" at="83,0,90,0">
+        <var name="reference" id="2855655749839233738" />
+        <var name="repository" id="2855655749839236552" />
+      </scope>
+      <scope id="1802459475176462973" at="20,61,29,15">
+        <var name="firstNode" id="1802459475176463031" />
+        <var name="secondNode" id="1802459475176463048" />
+      </scope>
+      <scope id="3840495236046418276" at="38,0,47,0" />
+      <scope id="1802459475176380579" at="58,72,68,17">
+        <var name="sourceNode" id="1802459475176380685" />
+      </scope>
+      <scope id="1802459475176462972" at="20,0,31,0">
+        <var name="first" id="1802459475176462972" />
+        <var name="second" id="1802459475176462972" />
+      </scope>
+      <scope id="1802459475176537099" at="70,90,81,5">
+        <var name="performResolve" id="1802459475176537399" />
+        <var name="unresolvedReferences" id="1802459475176537111" />
+      </scope>
+      <scope id="1802459475176380576" at="58,0,70,0">
+        <var name="reference" id="1802459475176380592" />
+        <var name="repository" id="1802459475176380594" />
+      </scope>
+      <scope id="1802459475176537096" at="70,0,83,0">
+        <var name="references" id="1802459475176537100" />
+        <var name="repository" id="1802459475176537106" />
+      </scope>
+      <unit id="1802459475176462972" at="19,67,31,3" name="jetbrains.mps.resolve.ResolverComponent$1" />
+      <unit id="3840495236046418263" at="17,0,94,0" name="jetbrains.mps.resolve.ResolverComponent" />
+    </file>
+  </root>
+  <root nodeRef="r:f77c2bf1-6f5c-4cb2-b314-a84dd502542e(jetbrains.mps.resolve)/5447047924422371423">
+    <file name="ReferenceResolverUtils.java">
+      <node id="5447047924421323070" at="19,29,20,19" concept="8" />
+      <node id="5447047924421323080" at="23,55,24,21" concept="8" />
+      <node id="5447047924421323090" at="26,5,27,16" concept="8" />
+      <node id="4953860923773790168" at="29,79,30,83" concept="7" />
+      <node id="4953860923773797693" at="31,25,32,20" concept="8" />
+      <node id="4953860923773797624" at="33,5,34,78" concept="7" />
+      <node id="4953860923773797779" at="34,78,35,87" concept="7" />
+      <node id="4953860923773797712" at="36,43,37,57" concept="7" />
+      <node id="4953860923773797823" at="37,57,38,58" concept="1" />
+      <node id="4953860923773790198" at="39,5,40,18" concept="8" />
+      <node id="4953860923773797627" at="43,36,44,43" concept="8" />
+      <node id="4953860923773797627" at="45,5,46,16" concept="8" />
+      <node id="5447047924421323068" at="18,85,21,5" concept="5" />
+      <node id="5447047924421323078" at="22,112,25,7" concept="5" />
+      <node id="4953860923773797666" at="30,83,33,5" concept="5" />
+      <node id="4953860923773797627" at="42,71,45,5" concept="5" />
+      <node id="4953860923773797637" at="35,87,39,5" concept="5" />
+      <node id="5447047924421323075" at="21,5,26,5" concept="4" />
+      <node id="4953860923773797627" at="42,0,48,0" concept="11" trace="check_y1vr00_a0c0b#(Lorg/jetbrains/mps/openapi/model/SModel;)Lorg/jetbrains/mps/openapi/module/SModule;" />
+      <node id="5447047924421326467" at="18,0,29,0" concept="11" trace="canExecuteImmediately#(Lorg/jetbrains/mps/openapi/model/SModel;Lorg/jetbrains/mps/openapi/module/SRepository;)Z" />
+      <node id="5447047924421837892" at="29,0,42,0" concept="11" trace="getResolveInfo#(Lorg/jetbrains/mps/openapi/model/SReference;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="5447047924421323069" at="19,29,20,19" />
+      <scope id="5447047924421323079" at="23,55,24,21" />
+      <scope id="4953860923773797667" at="31,25,32,20" />
+      <scope id="4953860923773797627" at="43,36,44,43" />
+      <scope id="4953860923773797638" at="36,43,38,58">
+        <var name="scope" id="4953860923773797713" />
+      </scope>
+      <scope id="5447047924421323077" at="22,112,25,7" />
+      <scope id="4953860923773797627" at="42,71,46,16" />
+      <scope id="5447047924421323075" at="21,5,26,5">
+        <var name="modelReference" id="5447047924421323076" />
+      </scope>
+      <scope id="4953860923773797627" at="42,0,48,0">
+        <var name="checkedDotOperand" id="4953860923773797627" />
+      </scope>
+      <scope id="5447047924421323067" at="18,85,27,16" />
+      <scope id="5447047924421326467" at="18,0,29,0">
+        <var name="model" id="5447047924421323092" />
+        <var name="repository" id="5447047924421323094" />
+      </scope>
+      <scope id="4953860923773790162" at="29,79,40,18">
+        <var name="module" id="4953860923773797625" />
+        <var name="result" id="4953860923773790169" />
+        <var name="target" id="4953860923773797780" />
+      </scope>
+      <scope id="5447047924421837892" at="29,0,42,0">
+        <var name="reference" id="4953860923773790165" />
+        <var name="sourceNode" id="4953860923773790237" />
+      </scope>
+      <unit id="5447047924422371423" at="17,0,49,0" name="jetbrains.mps.resolve.ReferenceResolverUtils" />
+    </file>
+  </root>
+</debug-info>
+

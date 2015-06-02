@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:10bf3684-5fb2-4fa0-9dd9-1d05589df2e9(jetbrains.mps.util.xml)/2084096332909492403">
+    <file name="XMLSAXHandler.java">
+      <node id="2084096332909499883" at="10,24,11,16" concept="5" />
+      <node id="2084096332909492405" at="8,0,10,0" concept="0" trace="XMLSAXHandler#()V" />
+      <node id="2084096332909495080" at="10,0,13,0" concept="3" trace="getResult#()null" />
+      <scope id="2084096332909492408" at="8,26,8,26" />
+      <scope id="2084096332909495083" at="10,24,11,16" />
+      <scope id="2084096332909492405" at="8,0,10,0" />
+      <scope id="2084096332909495080" at="10,0,13,0" />
+      <unit id="2084096332909492403" at="7,0,14,0" name="jetbrains.mps.util.xml.XMLSAXHandler" />
+    </file>
+  </root>
+  <root nodeRef="r:10bf3684-5fb2-4fa0-9dd9-1d05589df2e9(jetbrains.mps.util.xml)/4876847581624854372">
+    <file name="XmlUtil.java">
+      <node id="4876847581624854379" at="13,82,14,41" concept="4" />
+      <node id="4876847581624854385" at="14,41,15,24" concept="1" />
+      <node id="4876847581624854390" at="15,24,16,32" concept="1" />
+      <node id="4876847581624854405" at="18,109,19,41" concept="4" />
+      <node id="4876847581624854411" at="19,41,20,44" concept="1" />
+      <node id="4876847581624854417" at="20,44,21,32" concept="1" />
+      <node id="4876847581624854434" at="23,129,24,41" concept="4" />
+      <node id="4876847581624854440" at="24,41,25,44" concept="1" />
+      <node id="4876847581624854446" at="25,44,26,24" concept="1" />
+      <node id="4876847581624854451" at="26,24,27,32" concept="1" />
+      <node id="4876847581624854470" at="29,147,30,41" concept="4" />
+      <node id="4876847581624854476" at="30,41,31,44" concept="1" />
+      <node id="4876847581624854482" at="31,44,32,46" concept="1" />
+      <node id="4876847581624854488" at="32,46,33,32" concept="1" />
+      <node id="4876847581624854510" at="36,28,37,69" concept="5" />
+      <node id="4876847581624854517" at="38,5,39,0" concept="6" />
+      <node id="4876847581624854518" at="39,0,40,80" concept="5" />
+      <node id="4876847581624854540" at="43,28,44,18" concept="5" />
+      <node id="4876847581624854545" at="45,5,46,71" concept="5" />
+      <node id="4876847581624854561" at="49,26,50,26" concept="5" />
+      <node id="4876847581624854566" at="51,5,52,59" concept="4" />
+      <node id="4876847581624854573" at="52,59,53,80" concept="5" />
+      <node id="4876847581624854593" at="56,26,57,26" concept="5" />
+      <node id="4876847581624854598" at="58,5,59,59" concept="4" />
+      <node id="4876847581624854605" at="59,59,60,58" concept="5" />
+      <node id="4876847581624854619" at="11,0,13,0" concept="0" trace="XmlUtil#()V" />
+      <node id="4876847581624854508" at="35,79,38,5" concept="2" />
+      <node id="4876847581624854538" at="42,66,45,5" concept="2" />
+      <node id="4876847581624854559" at="48,100,51,5" concept="2" />
+      <node id="4876847581624854591" at="55,97,58,5" concept="2" />
+      <node id="4876847581624854373" at="13,0,18,0" concept="7" trace="tagWithText#(Lorg/jdom/Element;Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="4876847581624854399" at="18,0,23,0" concept="7" trace="tagWithAttribute#(Lorg/jdom/Element;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="4876847581624854428" at="23,0,29,0" concept="7" trace="tagWithAttributeAndText#(Lorg/jdom/Element;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="4876847581624854464" at="29,0,35,0" concept="7" trace="tagWithAttributes#(Lorg/jdom/Element;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="4876847581624854534" at="42,0,48,0" concept="7" trace="first#(Lorg/jdom/Element;Ljava/lang/String;)Lorg/jdom/Element;" />
+      <node id="4876847581624854503" at="35,0,42,0" concept="7" trace="children#(Lorg/jdom/Element;Ljava/lang/String;)Ljava/lang/Iterable;" />
+      <node id="4876847581624854555" at="48,0,55,0" concept="7" trace="booleanWithDefault#(Lorg/jdom/Element;Ljava/lang/String;Z)Z" />
+      <node id="4876847581624854587" at="55,0,62,0" concept="7" trace="stringWithDefault#(Lorg/jdom/Element;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="4876847581624854622" at="11,21,11,21" />
+      <scope id="4876847581624854509" at="36,28,37,69" />
+      <scope id="4876847581624854539" at="43,28,44,18" />
+      <scope id="4876847581624854560" at="49,26,50,26" />
+      <scope id="4876847581624854592" at="56,26,57,26" />
+      <scope id="4876847581624854619" at="11,0,13,0" />
+      <scope id="4876847581624854378" at="13,82,16,32">
+        <var name="child" id="4876847581624854380" />
+      </scope>
+      <scope id="4876847581624854404" at="18,109,21,32">
+        <var name="child" id="4876847581624854406" />
+      </scope>
+      <scope id="4876847581624854433" at="23,129,27,32">
+        <var name="child" id="4876847581624854435" />
+      </scope>
+      <scope id="4876847581624854469" at="29,147,33,32">
+        <var name="child" id="4876847581624854471" />
+      </scope>
+      <scope id="4876847581624854537" at="42,66,46,71" />
+      <scope id="4876847581624854373" at="13,0,18,0">
+        <var name="container" id="4876847581624854374" />
+        <var name="tagName" id="4876847581624854395" />
+        <var name="text" id="4876847581624854397" />
+      </scope>
+      <scope id="4876847581624854399" at="18,0,23,0">
+        <var name="attrName" id="4876847581624854424" />
+        <var name="attrValue" id="4876847581624854426" />
+        <var name="container" id="4876847581624854400" />
+        <var name="tagName" id="4876847581624854422" />
+      </scope>
+      <scope id="4876847581624854507" at="35,79,40,80" />
+      <scope id="4876847581624854558" at="48,100,53,80">
+        <var name="attrValue" id="4876847581624854567" />
+      </scope>
+      <scope id="4876847581624854590" at="55,97,60,58">
+        <var name="attrValue" id="4876847581624854599" />
+      </scope>
+      <scope id="4876847581624854428" at="23,0,29,0">
+        <var name="attrName" id="4876847581624854458" />
+        <var name="attrValue" id="4876847581624854460" />
+        <var name="container" id="4876847581624854429" />
+        <var name="tagName" id="4876847581624854456" />
+        <var name="text" id="4876847581624854462" />
+      </scope>
+      <scope id="4876847581624854464" at="29,0,35,0">
+        <var name="attr2Name" id="4876847581624854499" />
+        <var name="attr2Value" id="4876847581624854501" />
+        <var name="attrName" id="4876847581624854495" />
+        <var name="attrValue" id="4876847581624854497" />
+        <var name="container" id="4876847581624854465" />
+        <var name="tagName" id="4876847581624854493" />
+      </scope>
+      <scope id="4876847581624854534" at="42,0,48,0">
+        <var name="container" id="4876847581624854551" />
+        <var name="tagName" id="4876847581624854553" />
+      </scope>
+      <scope id="4876847581624854503" at="35,0,42,0">
+        <var name="container" id="4876847581624854530" />
+        <var name="tagName" id="4876847581624854532" />
+      </scope>
+      <scope id="4876847581624854555" at="48,0,55,0">
+        <var name="attrName" id="4876847581624854583" />
+        <var name="defaultValue" id="4876847581624854585" />
+        <var name="element" id="4876847581624854581" />
+      </scope>
+      <scope id="4876847581624854587" at="55,0,62,0">
+        <var name="attrName" id="4876847581624854614" />
+        <var name="defaultValue" id="4876847581624854616" />
+        <var name="element" id="4876847581624854612" />
+      </scope>
+      <unit id="4876847581624854372" at="10,0,63,0" name="jetbrains.mps.util.xml.XmlUtil" />
+    </file>
+  </root>
+  <root nodeRef="r:10bf3684-5fb2-4fa0-9dd9-1d05589df2e9(jetbrains.mps.util.xml)/8666712036583221658">
+    <file name="BreakParseSAXException.java">
+      <node id="8666712036583221660" at="8,0,10,0" concept="0" trace="BreakParseSAXException#()V" />
+      <scope id="8666712036583221663" at="8,35,8,35" />
+      <scope id="8666712036583221660" at="8,0,10,0" />
+      <unit id="8666712036583221658" at="7,0,11,0" name="jetbrains.mps.util.xml.BreakParseSAXException" />
+    </file>
+  </root>
+</debug-info>
+

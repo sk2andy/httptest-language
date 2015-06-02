@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="htl.sandbox.DropBoxTest" file="DropBoxTest.java">
+    <classNode dependClassName="de.skandy.httpclientexample.HTTPClient" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+  <dependency className="htl.sandbox.GoogleTest" file="GoogleTest.java">
+    <classNode dependClassName="de.skandy.httpclientexample.HTTPClient" />
+    <classNode dependClassName="de.skandy.httpclientexample.Param" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+</dependenciesRoot>
+

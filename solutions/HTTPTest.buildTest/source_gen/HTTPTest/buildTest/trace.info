@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <root nodeRef="r:fe9ec964-9719-4229-9766-fe8939a7bd63(HTTPTest.buildTest)/403615480018569279">
+    <file name="HTTPTest.xml">
+      <unit id="403615480018569279" at="1,0,304,10" name="HTTPTest.buildTest.HTTPTest" />
+    </file>
+  </root>
+</debug-info>
+

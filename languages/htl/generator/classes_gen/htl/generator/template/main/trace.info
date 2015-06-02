@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="QueriesGenerated.java">
+      <unit at="15,0,64,0" name="htl.generator.template.main.QueriesGenerated" />
+    </file>
+  </root>
+  <root nodeRef="r:3b72f887-e1fb-4f5b-83e5-c6811c9089f2(htl.generator.template.main@generator)/1464646648772697775">
+    <file name="QueriesGenerated.java">
+      <node id="1464646648773813420" at="18,112,19,184" concept="0" />
+      <node id="1464646648773287893" at="21,112,22,175" concept="0" />
+      <node id="1464646648773569415" at="24,112,25,352" concept="0" />
+      <node id="1464646648773599077" at="27,112,28,516" concept="0" />
+      <node id="1464646648773132431" at="30,112,31,183" concept="0" />
+      <node id="1464646648773144109" at="33,112,34,175" concept="0" />
+      <node id="1464646648773469892" at="36,112,37,184" concept="0" />
+      <node id="1464646648773463326" at="39,112,40,184" concept="0" />
+      <node id="6717418057876319094" at="42,112,43,175" concept="0" />
+      <node id="1464646648773789367" at="45,94,46,233" concept="0" />
+      <node id="1464646648773612589" at="48,94,49,206" concept="0" />
+      <node id="1464646648773286690" at="51,120,52,197" concept="0" />
+      <node id="1464646648773120051" at="54,120,55,194" concept="0" />
+      <node id="1464646648773143029" at="57,120,58,197" concept="0" />
+      <node id="1464646648773455560" at="60,120,61,195" concept="0" />
+      <scope id="1464646648773813414" at="18,112,19,184" />
+      <scope id="1464646648773287887" at="21,112,22,175" />
+      <scope id="1464646648773567421" at="24,112,25,352" />
+      <scope id="1464646648773578927" at="27,112,28,516" />
+      <scope id="1464646648773120746" at="30,112,31,183" />
+      <scope id="1464646648773144103" at="33,112,34,175" />
+      <scope id="1464646648773469886" at="36,112,37,184" />
+      <scope id="1464646648773461852" at="39,112,40,184" />
+      <scope id="6717418057876319088" at="42,112,43,175" />
+      <scope id="1464646648773788190" at="45,94,46,233" />
+      <scope id="1464646648773610269" at="48,94,49,206" />
+      <scope id="1464646648773286684" at="51,120,52,197" />
+      <scope id="1464646648773120045" at="54,120,55,194" />
+      <scope id="1464646648773143023" at="57,120,58,197" />
+      <scope id="1464646648773455554" at="60,120,61,195" />
+    </file>
+  </root>
+</debug-info>
+

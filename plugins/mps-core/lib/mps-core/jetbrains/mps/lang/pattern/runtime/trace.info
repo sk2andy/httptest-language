@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:3b890b7c-4f4e-439e-b3b4-4af658ba5455(jetbrains.mps.lang.pattern.runtime)/7783830406851712418">
+    <file name="PatternUtil.java">
+      <node id="7783830406851712425" at="16,69,17,19" concept="5" />
+      <node id="7783830406851712485" at="19,66,20,19" concept="5" />
+      <node id="7783830406851712500" at="21,5,22,16" concept="5" />
+      <node id="6750248974380597191" at="26,74,27,71" concept="4" />
+      <node id="6750248974380597206" at="29,28,30,21" concept="5" />
+      <node id="6750248974380597212" at="31,7,32,16" concept="1" />
+      <node id="6750248974380597224" at="33,5,34,27" concept="5" />
+      <node id="6803895172776101014" at="36,84,37,71" concept="4" />
+      <node id="6803895172776101049" at="39,28,40,21" concept="5" />
+      <node id="6803895172776101053" at="41,7,42,16" concept="1" />
+      <node id="6803895172776101068" at="43,5,44,27" concept="5" />
+      <node id="7783830406851712507" at="13,0,15,0" concept="0" trace="PatternUtil#()V" />
+      <node id="7783830406851712423" at="15,83,18,5" concept="3" />
+      <node id="7783830406851712483" at="18,5,21,5" concept="3" />
+      <node id="6750248974380597204" at="28,35,31,7" concept="3" />
+      <node id="6803895172776101026" at="38,35,41,7" concept="3" />
+      <node id="6750248974380597202" at="27,71,33,5" concept="2" />
+      <node id="6803895172776100975" at="37,71,43,5" concept="2" />
+      <node id="7783830406851712419" at="15,0,24,0" concept="6" trace="matchReferentWithNode#(Lorg/jetbrains/mps/openapi/model/SNodeReference;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="6599163591527286778" at="36,0,46,0" concept="6" trace="hasNChildren#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;I)Z" />
+      <node id="6750248974380597181" at="24,0,36,0" concept="6" trace="hasNChildren#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;I)Z" />
+      <scope id="7783830406851712510" at="13,24,13,24" />
+      <scope id="7783830406851712424" at="16,69,17,19" />
+      <scope id="7783830406851712484" at="19,66,20,19" />
+      <scope id="6750248974380597205" at="29,28,30,21" />
+      <scope id="6803895172776101027" at="39,28,40,21" />
+      <scope id="7783830406851712507" at="13,0,15,0" />
+      <scope id="6750248974380597203" at="28,35,32,16" />
+      <scope id="6803895172776100976" at="38,35,42,16" />
+      <scope id="6750248974380597202" at="27,71,33,5">
+        <var name="i" id="6750248974380597216" />
+      </scope>
+      <scope id="6803895172776100975" at="37,71,43,5">
+        <var name="i" id="6803895172776100978" />
+      </scope>
+      <scope id="7783830406851712422" at="15,83,22,16" />
+      <scope id="6750248974380597190" at="26,74,34,27">
+        <var name="it" id="6750248974380597192" />
+      </scope>
+      <scope id="6599163591527286785" at="36,84,44,27">
+        <var name="it" id="6803895172776101015" />
+      </scope>
+      <scope id="7783830406851712419" at="15,0,24,0">
+        <var name="node" id="7783830406851712504" />
+        <var name="pointer" id="7783830406851712502" />
+      </scope>
+      <scope id="6599163591527286778" at="36,0,46,0">
+        <var name="num" id="6803895172776100928" />
+        <var name="parent" id="6599163591527286781" />
+        <var name="role" id="6599163591527286783" />
+      </scope>
+      <scope id="6750248974380597181" at="24,0,36,0">
+        <var name="num" id="6750248974380597188" />
+        <var name="parent" id="6750248974380597184" />
+        <var name="role" id="6750248974380597186" />
+      </scope>
+      <unit id="7783830406851712418" at="12,0,47,0" name="jetbrains.mps.lang.pattern.runtime.PatternUtil" />
+    </file>
+  </root>
+</debug-info>
+

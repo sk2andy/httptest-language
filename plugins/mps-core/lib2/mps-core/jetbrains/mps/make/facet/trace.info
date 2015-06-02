@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <root nodeRef="r:71895ceb-c89d-4545-aa38-89d1cd891f17(jetbrains.mps.make.facet)/184542595914090623">
+    <file name="ITargetEx2.java">
+      <node id="184542595914091309" at="7,0,8,0" concept="4" trace="workEstimate#()I" />
+      <scope id="184542595914091309" at="7,0,8,0" />
+      <unit id="184542595914090623" at="6,0,9,0" name="jetbrains.mps.make.facet.ITargetEx2" />
+    </file>
+  </root>
+  <root nodeRef="r:71895ceb-c89d-4545-aa38-89d1cd891f17(jetbrains.mps.make.facet)/2192279360708028642">
+    <file name="IFacetManifest.java">
+      <node id="2192279360708028648" at="7,0,8,0" concept="4" trace="facets#()Ljava/lang/Iterable;" />
+      <node id="5215469770656069678" at="8,0,9,0" concept="4" trace="lookup#(Ljetbrains/mps/make/facet/IFacet/Name;)Ljetbrains/mps/make/facet/IFacet;" />
+      <scope id="2192279360708028648" at="7,0,8,0" />
+      <scope id="5215469770656069678" at="8,0,9,0">
+        <var name="fn" id="5215469770656069683" />
+      </scope>
+      <unit id="2192279360708028642" at="6,0,10,0" name="jetbrains.mps.make.facet.IFacetManifest" />
+    </file>
+  </root>
+  <root nodeRef="r:71895ceb-c89d-4545-aa38-89d1cd891f17(jetbrains.mps.make.facet)/6168415856807657096">
+    <file name="IFacet.java">
+      <node id="6168415856807657109" at="9,0,10,0" concept="4" trace="getName#()Ljetbrains/mps/make/facet/IFacet/Name;" />
+      <node id="6168415856807657113" at="10,0,11,0" concept="4" trace="extended#()Ljava/lang/Iterable;" />
+      <node id="6168415856807657118" at="11,0,12,0" concept="4" trace="required#()Ljava/lang/Iterable;" />
+      <node id="6168415856807657123" at="12,0,13,0" concept="4" trace="optional#()Ljava/lang/Iterable;" />
+      <node id="6168415856807657128" at="13,0,14,0" concept="4" trace="targets#()Ljava/lang/Iterable;" />
+      <node id="1521318412423194911" at="14,0,15,0" concept="4" trace="propertiesPersistence#()Ljetbrains/mps/make/resources/IPropertiesPersistence;" />
+      <node id="315679020132026568" at="16,29,17,17" concept="10" />
+      <node id="1521318412423199214" at="24,40,25,18" concept="6" />
+      <node id="1521318412423199216" at="28,45,29,18" concept="6" />
+      <node id="1521318412423199218" at="32,45,33,18" concept="6" />
+      <node id="1521318412423199220" at="36,45,37,18" concept="6" />
+      <node id="1521318412423199211" at="40,34,41,18" concept="6" />
+      <node id="1521318412423300477" at="44,59,45,18" concept="6" />
+      <node id="1521318412423199180" at="21,0,23,0" concept="0" trace="Stub#()V" />
+      <node id="6168415856807657099" at="16,0,19,0" concept="0" trace="Name#(Ljava/lang/String;)V" />
+      <node id="1521318412423199187" at="23,0,27,0" concept="4" trace="targets#()Ljava/lang/Iterable;" />
+      <node id="1521318412423199192" at="27,0,31,0" concept="4" trace="optional#()Ljava/lang/Iterable;" />
+      <node id="1521318412423199197" at="31,0,35,0" concept="4" trace="required#()Ljava/lang/Iterable;" />
+      <node id="1521318412423199202" at="35,0,39,0" concept="4" trace="extended#()Ljava/lang/Iterable;" />
+      <node id="1521318412423199207" at="39,0,43,0" concept="4" trace="getName#()Ljetbrains/mps/make/facet/IFacet/Name;" />
+      <node id="1521318412423300473" at="43,0,47,0" concept="4" trace="propertiesPersistence#()Ljetbrains/mps/make/resources/IPropertiesPersistence;" />
+      <scope id="1521318412423199183" at="21,19,21,19" />
+      <scope id="6168415856807657109" at="9,0,10,0" />
+      <scope id="6168415856807657113" at="10,0,11,0" />
+      <scope id="6168415856807657118" at="11,0,12,0" />
+      <scope id="6168415856807657123" at="12,0,13,0" />
+      <scope id="6168415856807657128" at="13,0,14,0" />
+      <scope id="1521318412423194911" at="14,0,15,0" />
+      <scope id="6168415856807657102" at="16,29,17,17" />
+      <scope id="1521318412423199191" at="24,40,25,18" />
+      <scope id="1521318412423199196" at="28,45,29,18" />
+      <scope id="1521318412423199201" at="32,45,33,18" />
+      <scope id="1521318412423199206" at="36,45,37,18" />
+      <scope id="1521318412423199210" at="40,34,41,18" />
+      <scope id="1521318412423300476" at="44,59,45,18" />
+      <scope id="1521318412423199180" at="21,0,23,0" />
+      <scope id="6168415856807657099" at="16,0,19,0">
+        <var name="fqn" id="6168415856807657105" />
+      </scope>
+      <scope id="1521318412423199187" at="23,0,27,0" />
+      <scope id="1521318412423199192" at="27,0,31,0" />
+      <scope id="1521318412423199197" at="31,0,35,0" />
+      <scope id="1521318412423199202" at="35,0,39,0" />
+      <scope id="1521318412423199207" at="39,0,43,0" />
+      <scope id="1521318412423300473" at="43,0,47,0" />
+      <unit id="6168415856807657097" at="15,0,20,0" name="jetbrains.mps.make.facet.IFacet$Name" />
+      <unit id="1521318412423199178" at="20,0,48,0" name="jetbrains.mps.make.facet.IFacet$Stub" />
+      <unit id="6168415856807657096" at="8,0,49,0" name="jetbrains.mps.make.facet.IFacet" />
+    </file>
+  </root>
+  <root nodeRef="r:71895ceb-c89d-4545-aa38-89d1cd891f17(jetbrains.mps.make.facet)/6168415856807657134">
+    <file name="ITarget.java">
+      <node id="6168415856807657147" at="11,0,12,0" concept="4" trace="getName#()Ljetbrains/mps/make/facet/ITarget/Name;" />
+      <node id="2878100257845887603" at="12,0,13,0" concept="4" trace="requiresInput#()Z" />
+      <node id="7082294419594885835" at="13,0,14,0" concept="4" trace="producesOutput#()Z" />
+      <node id="2878100257845887608" at="14,0,15,0" concept="4" trace="expectedInput#()Ljava/lang/Iterable;" />
+      <node id="3947550283130603191" at="15,0,16,0" concept="4" trace="expectedOutput#()Ljava/lang/Iterable;" />
+      <node id="6168415856807657151" at="16,0,17,0" concept="4" trace="before#()Ljava/lang/Iterable;" />
+      <node id="6168415856807657156" at="17,0,18,0" concept="4" trace="notBefore#()Ljava/lang/Iterable;" />
+      <node id="6168415856807657161" at="18,0,19,0" concept="4" trace="after#()Ljava/lang/Iterable;" />
+      <node id="6168415856807657166" at="19,0,20,0" concept="4" trace="notAfter#()Ljava/lang/Iterable;" />
+      <node id="1977954644795559226" at="20,0,21,0" concept="4" trace="createConfig#()Ljetbrains/mps/make/script/IConfig;" />
+      <node id="7320828025189492112" at="21,0,22,0" concept="4" trace="createParameters#(Ljava/lang/Class;)null" />
+      <node id="3173704087496311615" at="22,0,23,0" concept="4" trace="createParameters#(Ljava/lang/Class;null)null" />
+      <node id="6168415856807657171" at="23,0,24,0" concept="4" trace="createJob#()Ljetbrains/mps/make/script/IJob;" />
+      <node id="6168415856807657141" at="25,30,26,18" concept="10" />
+      <node id="1150121516825542527" at="29,71,30,43" concept="6" />
+      <node id="6168415856807657137" at="25,0,28,0" concept="0" trace="Name#(Ljava/lang/String;)V" />
+      <node id="1150121516825542489" at="28,0,32,0" concept="4" trace="createParentName#(Ljava/lang/String;)Ljetbrains/mps/make/facet/IFacet/Name;" />
+      <scope id="6168415856807657147" at="11,0,12,0" />
+      <scope id="2878100257845887603" at="12,0,13,0" />
+      <scope id="7082294419594885835" at="13,0,14,0" />
+      <scope id="2878100257845887608" at="14,0,15,0" />
+      <scope id="3947550283130603191" at="15,0,16,0" />
+      <scope id="6168415856807657151" at="16,0,17,0" />
+      <scope id="6168415856807657156" at="17,0,18,0" />
+      <scope id="6168415856807657161" at="18,0,19,0" />
+      <scope id="6168415856807657166" at="19,0,20,0" />
+      <scope id="1977954644795559226" at="20,0,21,0" />
+      <scope id="7320828025189492112" at="21,0,22,0">
+        <var name="varCls" id="3344436107829960275" />
+      </scope>
+      <scope id="3173704087496311615" at="22,0,23,0">
+        <var name="copyFrom" id="3173704087496312083" />
+        <var name="varCls" id="3173704087496311620" />
+      </scope>
+      <scope id="6168415856807657171" at="23,0,24,0" />
+      <scope id="6168415856807657140" at="25,30,26,18" />
+      <scope id="1150121516825542500" at="29,71,30,43" />
+      <scope id="6168415856807657137" at="25,0,28,0">
+        <var name="name" id="6168415856807657143" />
+      </scope>
+      <scope id="1150121516825542489" at="28,0,32,0">
+        <var name="parentFqName" id="1150121516825542490" />
+      </scope>
+      <unit id="6168415856807657135" at="24,0,33,0" name="jetbrains.mps.make.facet.ITarget$Name" />
+      <unit id="6168415856807657134" at="10,0,34,0" name="jetbrains.mps.make.facet.ITarget" />
+    </file>
+  </root>
+  <root nodeRef="r:71895ceb-c89d-4545-aa38-89d1cd891f17(jetbrains.mps.make.facet)/6168415856807659069">
+    <file name="FacetRegistry.java">
+      <node id="6168415856807662021" at="23,0,24,0" concept="8" trace="LOG" />
+      <node id="6168415856807659170" at="24,0,25,0" concept="8" trace="INSTANCE" />
+      <node id="6168415856807659070" at="25,0,26,0" concept="2" trace="facetMap" />
+      <node id="4867764537727385687" at="26,0,27,0" concept="2" trace="facetsForLanguages" />
+      <node id="4867764537727490029" at="30,38,31,26" concept="1" />
+      <node id="6168415856807659091" at="34,69,35,63" concept="11" />
+      <node id="6168415856807659095" at="36,5,37,62" concept="1" />
+      <node id="4867764537727392156" at="37,62,38,113" concept="1" />
+      <node id="6168415856807659118" at="41,72,42,59" concept="11" />
+      <node id="6168415856807659122" at="43,5,44,61" concept="1" />
+      <node id="4867764537727673862" at="46,59,47,40" concept="6" />
+      <node id="8855298915862262346" at="51,40,52,62" concept="5" />
+      <node id="5215469770656067210" at="53,26,54,66" concept="5" />
+      <node id="7788471824034063068" at="55,23,56,83" concept="5" />
+      <node id="7788471824034063089" at="56,83,57,35" concept="5" />
+      <node id="7788471824034063116" at="58,26,59,21" concept="6" />
+      <node id="5145917501578463085" at="62,5,63,39" concept="7" />
+      <node id="5145917501578463089" at="63,39,64,75" concept="1" />
+      <node id="6168415856807659134" at="64,75,65,49" concept="6" />
+      <node id="4867764537728103946" at="69,59,70,49" concept="6" />
+      <node id="4867764537728210687" at="73,58,74,23" concept="6" />
+      <node id="6168415856807659144" at="78,47,79,49" concept="6" />
+      <node id="6168415856807659155" at="82,27,83,35" concept="1" />
+      <node id="6168415856807659160" at="83,35,84,57" concept="11" />
+      <node id="6168415856807659167" at="85,5,86,20" concept="6" />
+      <node id="6168415856807659176" at="27,0,29,0" concept="0" trace="FacetRegistry#()V" />
+      <node id="6168415856807659083" at="33,64,36,5" concept="3" />
+      <node id="6168415856807659109" at="40,46,43,5" concept="3" />
+      <node id="4867764537727668914" at="46,0,49,0" concept="4" trace="accept#(Ljetbrains/mps/baseLanguage/tuples/runtime/Tuples/_2;)Z" />
+      <node id="7788471824034063097" at="57,35,60,9" concept="3" />
+      <node id="4867764537728098633" at="69,0,72,0" concept="4" trace="accept#(Ljetbrains/mps/baseLanguage/tuples/runtime/Tuples/_2;)Z" />
+      <node id="4867764537728205947" at="73,0,76,0" concept="4" trace="select#(Ljetbrains/mps/baseLanguage/tuples/runtime/Tuples/_2;)Ljetbrains/mps/make/facet/IFacet;" />
+      <node id="6168415856807659141" at="78,0,81,0" concept="4" trace="allFacets#()Ljava/util/Map;" />
+      <node id="6168415856807659079" at="29,0,33,0" concept="4" trace="register#(Ljetbrains/mps/make/facet/IFacet;)V" />
+      <node id="6168415856807659153" at="81,45,85,5" concept="3" />
+      <node id="4867764537727778197" at="44,61,49,8" concept="1" />
+      <node id="4867764537727338103" at="33,0,40,0" concept="4" trace="register#(Ljava/lang/String;Ljetbrains/mps/make/facet/IFacet;)V" />
+      <node id="5215469770656067206" at="54,66,61,7" concept="3" />
+      <node id="6168415856807659150" at="81,0,88,0" concept="9" trace="getInstance#()Ljetbrains/mps/make/facet/FacetRegistry;" />
+      <node id="4867764537728085907" at="67,80,76,7" concept="6" />
+      <node id="8855298915862262352" at="52,62,62,5" concept="3" />
+      <node id="6168415856807659105" at="40,0,51,0" concept="4" trace="unregister#(Ljetbrains/mps/make/facet/IFacet;)V" />
+      <node id="4867764537728076293" at="67,0,78,0" concept="4" trace="getFacetsForLanguage#(Ljava/lang/String;)Ljava/lang/Iterable;" />
+      <node id="6168415856807659131" at="51,0,67,0" concept="4" trace="lookup#(Ljetbrains/mps/make/facet/IFacet/Name;)Ljetbrains/mps/make/facet/IFacet;" />
+      <scope id="6168415856807659178" at="27,27,27,27" />
+      <scope id="6168415856807659082" at="30,38,31,26" />
+      <scope id="6168415856807659090" at="34,69,35,63" />
+      <scope id="6168415856807659117" at="41,72,42,59" />
+      <scope id="4867764537727668915" at="46,59,47,40" />
+      <scope id="7788471824034063098" at="58,26,59,21" />
+      <scope id="4867764537728098634" at="69,59,70,49" />
+      <scope id="4867764537728205948" at="73,58,74,23" />
+      <scope id="6168415856807659143" at="78,47,79,49" />
+      <scope id="6168415856807659176" at="27,0,29,0" />
+      <scope id="6168415856807659154" at="82,27,84,57" />
+      <scope id="4867764537727668914" at="46,0,49,0">
+        <var name="it" id="4867764537727668914" />
+      </scope>
+      <scope id="4867764537728098633" at="69,0,72,0">
+        <var name="it" id="4867764537728098633" />
+      </scope>
+      <scope id="4867764537728205947" at="73,0,76,0">
+        <var name="it" id="4867764537728205947" />
+      </scope>
+      <scope id="6168415856807659141" at="78,0,81,0" />
+      <scope id="6168415856807659079" at="29,0,33,0">
+        <var name="facet" id="6168415856807659103" />
+      </scope>
+      <scope id="4867764537727338106" at="33,64,38,113" />
+      <scope id="5215469770656067207" at="55,23,60,9">
+        <var name="fct" id="7788471824034063090" />
+        <var name="fm" id="7788471824034063069" />
+      </scope>
+      <scope id="6168415856807659152" at="81,45,86,20" />
+      <scope id="4867764537727338103" at="33,0,40,0">
+        <var name="facet" id="4867764537727340220" />
+        <var name="languageNamespace" id="4867764537727342195" />
+      </scope>
+      <scope id="6168415856807659150" at="81,0,88,0" />
+      <scope id="8855298915862262353" at="53,26,61,7">
+        <var name="lr" id="5215469770656067211" />
+      </scope>
+      <scope id="6168415856807659108" at="40,46,49,8" />
+      <scope id="4867764537728076296" at="67,80,76,7" />
+      <scope id="6168415856807659105" at="40,0,51,0">
+        <var name="facet" id="6168415856807659129" />
+      </scope>
+      <scope id="4867764537728076293" at="67,0,78,0">
+        <var name="languageNamespace" id="4867764537728080774" />
+      </scope>
+      <scope id="6168415856807659133" at="51,40,65,49">
+        <var name="langReg" id="8855298915862262347" />
+      </scope>
+      <scope id="6168415856807659131" at="51,0,67,0">
+        <var name="fn" id="6168415856807659139" />
+      </scope>
+      <unit id="4867764537727668914" at="45,147,49,5" name="jetbrains.mps.make.facet.FacetRegistry$1" />
+      <unit id="4867764537728098633" at="68,61,72,5" name="jetbrains.mps.make.facet.FacetRegistry$2" />
+      <unit id="4867764537728205947" at="72,18,76,5" name="jetbrains.mps.make.facet.FacetRegistry$3" />
+      <unit id="6168415856807659069" at="22,0,89,0" name="jetbrains.mps.make.facet.FacetRegistry" />
+    </file>
+  </root>
+  <root nodeRef="r:71895ceb-c89d-4545-aa38-89d1cd891f17(jetbrains.mps.make.facet)/7219266275016638568">
+    <file name="ITargetEx.java">
+      <node id="7219266275016638571" at="7,0,8,0" concept="4" trace="isOptional#()Z" />
+      <scope id="7219266275016638571" at="7,0,8,0" />
+      <unit id="7219266275016638568" at="6,0,9,0" name="jetbrains.mps.make.facet.ITargetEx" />
+    </file>
+  </root>
+</debug-info>
+

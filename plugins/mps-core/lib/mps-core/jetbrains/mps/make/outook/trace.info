@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <root nodeRef="r:41450d7d-4a69-4546-a21d-9ea9c2837268(jetbrains.mps.make.outook)/5608160002100096676">
+    <file name="IOutlook.java">
+      <node id="5608160002100096682" at="8,0,9,0" concept="0" trace="facetNames#()Ljava/lang/Iterable;" />
+      <scope id="5608160002100096682" at="8,0,9,0" />
+      <unit id="5608160002100096676" at="7,0,10,0" name="jetbrains.mps.make.outook.IOutlook" />
+    </file>
+  </root>
+</debug-info>
+

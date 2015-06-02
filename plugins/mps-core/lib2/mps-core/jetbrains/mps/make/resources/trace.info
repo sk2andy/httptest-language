@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <root nodeRef="r:4ea5a78b-cb8a-4831-b227-f7860a22491d(jetbrains.mps.make.resources)/1521318412423194894">
+    <file name="IPropertiesPersistence.java">
+      <node id="1521318412423194895" at="9,0,10,0" concept="0" trace="loadValues#(Ljava/util/Map;Ljetbrains/mps/make/script/IPropertiesPool;)V" />
+      <node id="1521318412423194901" at="10,0,11,0" concept="0" trace="storeValues#(Ljava/util/Map;Ljetbrains/mps/make/script/IPropertiesPool;)V" />
+      <scope id="1521318412423194895" at="9,0,10,0">
+        <var name="properties" id="3823234540026607452" />
+        <var name="store" id="3823234540026607448" />
+      </scope>
+      <scope id="1521318412423194901" at="10,0,11,0">
+        <var name="properties" id="44444360532507206" />
+        <var name="store" id="44444360532497735" />
+      </scope>
+      <unit id="1521318412423194894" at="8,0,12,0" name="jetbrains.mps.make.resources.IPropertiesPersistence" />
+    </file>
+  </root>
+  <root nodeRef="r:4ea5a78b-cb8a-4831-b227-f7860a22491d(jetbrains.mps.make.resources)/2958721966247231626">
+    <file name="IResourceWithProperties.java">
+      <node id="2958721966247250933" at="7,0,8,0" concept="0" trace="getProperties#()Ljetbrains/mps/make/resources/IPropertiesIO;" />
+      <scope id="2958721966247250933" at="7,0,8,0" />
+      <unit id="2958721966247231626" at="6,0,9,0" name="jetbrains.mps.make.resources.IResourceWithProperties" />
+    </file>
+  </root>
+  <root nodeRef="r:4ea5a78b-cb8a-4831-b227-f7860a22491d(jetbrains.mps.make.resources)/2958721966247231768">
+    <file name="IPropertiesIO.java">
+      <node id="2958721966247231776" at="9,0,10,0" concept="0" trace="getKey#()Ljava/lang/Object;" />
+      <node id="2958721966247231629" at="10,0,11,0" concept="0" trace="readProperties#()Ljava/util/Map;" />
+      <node id="2958721966247250902" at="11,0,12,0" concept="0" trace="writeProperties#(Ljava/util/Map;)V" />
+      <scope id="2958721966247231776" at="9,0,10,0" />
+      <scope id="2958721966247231629" at="10,0,11,0" />
+      <scope id="2958721966247250902" at="11,0,12,0">
+        <var name="store" id="2958721966247250915" />
+      </scope>
+      <unit id="2958721966247231768" at="8,0,13,0" name="jetbrains.mps.make.resources.IPropertiesIO" />
+    </file>
+  </root>
+  <root nodeRef="r:4ea5a78b-cb8a-4831-b227-f7860a22491d(jetbrains.mps.make.resources)/3353120829256410483">
+    <file name="IPropertiesAccessor.java">
+      <node id="3353120829256410485" at="8,0,9,0" concept="0" trace="forResource#(Ljetbrains/mps/make/resources/IResource;)Ljetbrains/mps/make/script/IPropertiesPool;" />
+      <node id="2191561637326275449" at="9,0,10,0" concept="0" trace="global#()Ljetbrains/mps/make/script/IPropertiesPool;" />
+      <scope id="3353120829256410485" at="8,0,9,0">
+        <var name="res" id="3353120829256410603" />
+      </scope>
+      <scope id="2191561637326275449" at="9,0,10,0" />
+      <unit id="3353120829256410483" at="7,0,11,0" name="jetbrains.mps.make.resources.IPropertiesAccessor" />
+    </file>
+  </root>
+  <root nodeRef="r:4ea5a78b-cb8a-4831-b227-f7860a22491d(jetbrains.mps.make.resources)/6168415856807657256">
+    <file name="IResource.java">
+      <node id="2958721966247250947" at="7,0,8,0" concept="0" trace="describe#()Ljava/lang/String;" />
+      <scope id="2958721966247250947" at="7,0,8,0" />
+      <unit id="6168415856807657256" at="6,0,9,0" name="jetbrains.mps.make.resources.IResource" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root nodeRef="r:13ec431d-483d-451c-a648-ffefde4fef51(jetbrains.mps.internal.make.runtime.backports)/1007939372524169703">
+    <file name="JobProgressMonitorAdapter.java">
+      <node id="1007939372524175484" at="10,0,11,0" concept="8" trace="WORK_AMOUNT" />
+      <node id="1007939372524169742" at="11,0,12,0" concept="3" trace="myJobMonitor" />
+      <node id="1007939372524175445" at="12,0,13,0" concept="3" trace="myName" />
+      <node id="8705675962584618701" at="13,0,14,0" concept="3" trace="myTitle" />
+      <node id="1007939372524175449" at="14,0,15,0" concept="3" trace="myStep" />
+      <node id="1569225844690537548" at="15,0,16,0" concept="3" trace="myCalledSetTitleInternal" />
+      <node id="1007939372524169748" at="16,57,17,27" concept="2" />
+      <node id="1007939372524175506" at="21,25,22,96" concept="6" />
+      <node id="1007939372524175520" at="22,96,23,128" concept="2" />
+      <node id="7517070145111353759" at="28,47,29,13" concept="7" />
+      <node id="7517070145111353787" at="30,5,31,35" concept="6" />
+      <node id="7517070145111353795" at="32,19,33,37" concept="2" />
+      <node id="1007939372524175461" at="34,5,35,19" concept="2" />
+      <node id="1007939372524175454" at="38,47,39,18" concept="2" />
+      <node id="306232400967283504" at="40,25,41,71" concept="2" />
+      <node id="1880999106399094034" at="46,47,47,13" concept="7" />
+      <node id="8705675962584618676" at="48,5,49,23" concept="2" />
+      <node id="1007939372524175608" at="49,23,50,67" concept="2" />
+      <node id="1880999106399094042" at="54,47,55,13" concept="7" />
+      <node id="1007939372524175646" at="56,5,57,52" concept="2" />
+      <node id="5284995370970458440" at="59,28,60,116" concept="6" />
+      <node id="5284995370970458453" at="60,116,61,78" concept="6" />
+      <node id="5284995370970458479" at="61,78,62,165" concept="7" />
+      <node id="7219266275016309306" at="65,100,66,93" concept="7" />
+      <node id="1007939372524175668" at="69,22,70,17" concept="2" />
+      <node id="1007939372524175680" at="73,31,74,40" concept="7" />
+      <node id="6246996933098079726" at="80,0,81,0" concept="3" trace="myParentTask" />
+      <node id="6946682729051139590" at="81,111,82,32" concept="9" />
+      <node id="6246996933098079729" at="82,32,83,37" concept="2" />
+      <node id="6946682729051139596" at="87,108,88,58" concept="2" />
+      <node id="6946682729051139603" at="93,108,94,59" concept="2" />
+      <node id="1880999106399093977" at="98,102,99,95" concept="7" />
+      <node id="1007939372524169705" at="16,0,19,0" concept="1" trace="JobProgressMonitorAdapter#(Ljetbrains/mps/make/script/IJobMonitor;)V" />
+      <node id="7517070145111353750" at="27,48,30,5" concept="4" />
+      <node id="7517070145111348790" at="31,35,34,5" concept="4" />
+      <node id="2138132124739794793" at="39,18,42,5" concept="4" />
+      <node id="1880999106399094032" at="45,45,48,5" concept="4" />
+      <node id="1880999106399094040" at="53,44,56,5" concept="4" />
+      <node id="1007939372524175670" at="76,0,79,0" concept="5" trace="cancel#()V" />
+      <node id="8705675962584618708" at="86,46,89,7" concept="4" />
+      <node id="8705675962584618661" at="92,47,95,7" concept="4" />
+      <node id="1007939372524175492" at="20,38,24,5" concept="4" />
+      <node id="6946682729051138764" at="64,0,68,0" concept="5" trace="subTaskInternal#(ILorg/jetbrains/mps/openapi/util/SubProgressKind;)Ljetbrains/mps/progress/ProgressMonitorBase/SubProgressMonitor;" />
+      <node id="1007939372524175663" at="68,0,72,0" concept="5" trace="done#()V" />
+      <node id="1007939372524175674" at="72,0,76,0" concept="5" trace="isCanceled#()Z" />
+      <node id="6946682729051139424" at="81,0,85,0" concept="1" trace="SubProgressMonitor#(Ljetbrains/mps/progress/ProgressMonitorBase;Ljava/lang/String;ILorg/jetbrains/mps/openapi/util/SubProgressKind;)V" />
+      <node id="8440297715838282297" at="97,0,101,0" concept="5" trace="subTaskInternal#(ILorg/jetbrains/mps/openapi/util/SubProgressKind;)Ljetbrains/mps/progress/ProgressMonitorBase/SubProgressMonitor;" />
+      <node id="5284995370970458436" at="59,0,64,0" concept="5" trace="comment#()Ljava/lang/String;" />
+      <node id="6946682729051139500" at="85,0,91,0" concept="5" trace="doneInternal#(Ljava/lang/String;)V" />
+      <node id="6946682729051139505" at="91,0,97,0" concept="5" trace="startInternal#(Ljava/lang/String;)V" />
+      <node id="1007939372524169766" at="19,0,26,0" concept="5" trace="update#(D)V" />
+      <node id="1007939372524169754" at="37,0,44,0" concept="5" trace="setStepInternal#(Ljava/lang/String;)V" />
+      <node id="4371703535765202968" at="52,0,59,0" concept="5" trace="doneInternal#(Ljava/lang/String;)V" />
+      <node id="4371703535765202972" at="44,0,52,0" concept="5" trace="startInternal#(Ljava/lang/String;)V" />
+      <node id="1007939372524169760" at="26,0,37,0" concept="5" trace="setTitleInternal#(Ljava/lang/String;)V" />
+      <scope id="1007939372524175673" at="77,24,77,24" />
+      <scope id="1007939372524169708" at="16,57,17,27" />
+      <scope id="7517070145111353751" at="28,47,29,13" />
+      <scope id="7517070145111348791" at="32,19,33,37" />
+      <scope id="2138132124739794794" at="40,25,41,71" />
+      <scope id="1880999106399094033" at="46,47,47,13" />
+      <scope id="1880999106399094041" at="54,47,55,13" />
+      <scope id="6946682729051138771" at="65,100,66,93" />
+      <scope id="1007939372524175666" at="69,22,70,17" />
+      <scope id="1007939372524175677" at="73,31,74,40" />
+      <scope id="8705675962584618709" at="87,108,88,58" />
+      <scope id="8705675962584618672" at="93,108,94,59" />
+      <scope id="8440297715838282304" at="98,102,99,95" />
+      <scope id="1007939372524175494" at="21,25,23,128">
+        <var name="currFrac" id="1007939372524175507" />
+      </scope>
+      <scope id="6946682729051139433" at="81,111,83,37" />
+      <scope id="1007939372524169705" at="16,0,19,0">
+        <var name="monitor" id="1007939372524169746" />
+      </scope>
+      <scope id="5284995370970458439" at="59,28,62,165">
+        <var name="currstep" id="5284995370970458433" />
+        <var name="currsubtitle" id="5284995370970458434" />
+      </scope>
+      <scope id="1007939372524175670" at="76,0,79,0" />
+      <scope id="6946682729051139503" at="86,46,89,7" />
+      <scope id="6946682729051139510" at="92,47,95,7" />
+      <scope id="1007939372524169771" at="20,38,24,5" />
+      <scope id="1007939372524169759" at="38,47,42,5" />
+      <scope id="4371703535765202971" at="53,44,57,52" />
+      <scope id="6946682729051138764" at="64,0,68,0">
+        <var name="kind" id="6946682729051138769" />
+        <var name="work" id="6946682729051138767" />
+      </scope>
+      <scope id="1007939372524175663" at="68,0,72,0" />
+      <scope id="1007939372524175674" at="72,0,76,0" />
+      <scope id="6946682729051139424" at="81,0,85,0">
+        <var name="kind" id="6946682729051139431" />
+        <var name="parent" id="6946682729051139427" />
+        <var name="parentTask" id="6246996933098079723" />
+        <var name="work" id="6946682729051139429" />
+      </scope>
+      <scope id="8440297715838282297" at="97,0,101,0">
+        <var name="kind" id="8440297715838282302" />
+        <var name="work" id="8440297715838282300" />
+      </scope>
+      <scope id="4371703535765202977" at="45,45,50,67" />
+      <scope id="5284995370970458436" at="59,0,64,0" />
+      <scope id="6946682729051139500" at="85,0,91,0">
+        <var name="text" id="4850009657801034333" />
+      </scope>
+      <scope id="6946682729051139505" at="91,0,97,0">
+        <var name="text" id="4850009657801034335" />
+      </scope>
+      <scope id="1007939372524169766" at="19,0,26,0">
+        <var name="frac" id="1007939372524169769" />
+      </scope>
+      <scope id="1007939372524169754" at="37,0,44,0">
+        <var name="step" id="1007939372524169757" />
+      </scope>
+      <scope id="4371703535765202968" at="52,0,59,0">
+        <var name="text" id="4850009657801034330" />
+      </scope>
+      <scope id="1007939372524169765" at="27,48,35,19">
+        <var name="idx" id="7517070145111353788" />
+      </scope>
+      <scope id="4371703535765202972" at="44,0,52,0">
+        <var name="text" id="4850009657801034326" />
+      </scope>
+      <scope id="1007939372524169760" at="26,0,37,0">
+        <var name="text" id="1007939372524169763" />
+      </scope>
+      <unit id="6946682729051139412" at="79,0,102,0" name="jetbrains.mps.internal.make.runtime.backports.JobProgressMonitorAdapter$SubProgressMonitor" />
+      <unit id="1007939372524169703" at="9,0,103,0" name="jetbrains.mps.internal.make.runtime.backports.JobProgressMonitorAdapter" />
+    </file>
+  </root>
+  <root nodeRef="r:13ec431d-483d-451c-a648-ffefde4fef51(jetbrains.mps.internal.make.runtime.backports)/5589305777382258419">
+    <file name="ProgressMonitorProgressStrategy.java">
+      <node id="3449801126986532461" at="16,0,17,0" concept="8" trace="TOTAL" />
+      <node id="7480932071789567941" at="17,0,18,0" concept="8" trace="MAXWORK" />
+      <node id="8848530710797786532" at="20,0,21,0" concept="3" trace="monitorWorkStack" />
+      <node id="7480932071789568233" at="21,0,22,0" concept="3" trace="isInitialized" />
+      <node id="7480932071789567947" at="22,0,23,0" concept="3" trace="done" />
+      <node id="4061343222277639905" at="23,44,24,17" concept="9" />
+      <node id="7480932071789568299" at="24,17,25,38" concept="2" />
+      <node id="5589305777382265055" at="27,46,28,76" concept="2" />
+      <node id="8848530710797796314" at="28,76,29,54" concept="2" />
+      <node id="7480932071789567952" at="29,54,30,18" concept="2" />
+      <node id="7480932071789568246" at="30,18,31,31" concept="2" />
+      <node id="7480932071789568267" at="34,27,35,33" concept="2" />
+      <node id="364166335724380710" at="35,33,36,27" concept="2" />
+      <node id="5054006938939416800" at="39,31,40,32" concept="7" />
+      <node id="7480932071789568279" at="42,47,43,25" concept="2" />
+      <node id="8848530710797810795" at="43,25,44,138" concept="7" />
+      <node id="7480932071789568282" at="47,63,48,25" concept="2" />
+      <node id="8848530710797796330" at="48,25,49,27" concept="6" />
+      <node id="6581695381290137669" at="50,62,51,80" concept="2" />
+      <node id="3905757676429325432" at="52,12,53,100" concept="2" />
+      <node id="4061343222277639933" at="54,5,55,45" concept="2" />
+      <node id="8848530710797796339" at="55,45,56,135" concept="2" />
+      <node id="7480932071789568286" at="59,66,60,25" concept="2" />
+      <node id="6361663039783405837" at="61,78,62,89" concept="6" />
+      <node id="8848530710797810826" at="62,89,63,34" concept="2" />
+      <node id="306232400967283456" at="63,34,64,30" concept="2" />
+      <node id="7480932071789568289" at="68,66,69,25" concept="2" />
+      <node id="8848530710797810574" at="69,25,70,35" concept="2" />
+      <node id="8848530710797810752" at="74,81,75,75" concept="7" />
+      <node id="8848530710797810765" at="76,7,77,73" concept="2" />
+      <node id="8848530710797810791" at="78,5,79,19" concept="7" />
+      <node id="5589305777382265041" at="18,0,20,0" concept="3" trace="monitor" />
+      <node id="3905757676429314930" at="52,10,54,5" concept="0" />
+      <node id="5054006938939416795" at="39,0,42,0" concept="5" trace="isCanceled#()Z" />
+      <node id="8848530710797810735" at="73,68,76,7" concept="4" />
+      <node id="5589305777382258421" at="23,0,27,0" concept="1" trace="ProgressMonitorProgressStrategy#()V" />
+      <node id="7480932071789568261" at="33,36,37,5" concept="4" />
+      <node id="5589305777382265115" at="42,0,46,0" concept="5" trace="getProgressMonitor#()Lorg/jetbrains/mps/openapi/util/ProgressMonitor;" />
+      <node id="6581695381290137659" at="49,27,54,5" concept="4" />
+      <node id="6361663039783405816" at="60,25,65,5" concept="4" />
+      <node id="4061343222277639911" at="67,0,72,0" concept="5" trace="finishedWork#(Ljetbrains/mps/internal/make/runtime/script/AbstractProgressStrategy/Work;)V" />
+      <node id="5589305777382265049" at="27,0,33,0" concept="5" trace="reset#(Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)V" />
+      <node id="7480932071789568257" at="33,0,39,0" concept="5" trace="initializeIfNeeded#()V" />
+      <node id="8848530710797810630" at="72,82,78,5" concept="10" />
+      <node id="4061343222277639917" at="58,0,67,0" concept="5" trace="advancedWork#(Ljetbrains/mps/internal/make/runtime/script/AbstractProgressStrategy/Work;)V" />
+      <node id="8848530710797810621" at="72,0,81,0" concept="5" trace="popMatchingMonitor#(Ljetbrains/mps/internal/make/runtime/script/AbstractProgressStrategy/Work;)Lorg/jetbrains/mps/openapi/util/ProgressMonitor;" />
+      <node id="4061343222277639923" at="46,0,58,0" concept="5" trace="begunWork#(Ljetbrains/mps/internal/make/runtime/script/AbstractProgressStrategy/Work;)V" />
+      <scope id="5054006938939416798" at="39,31,40,32" />
+      <scope id="6581695381290137660" at="50,62,51,80" />
+      <scope id="3905757676429314931" at="52,12,53,100" />
+      <scope id="8848530710797810737" at="74,81,75,75" />
+      <scope id="5589305777382258424" at="23,44,25,38" />
+      <scope id="7480932071789568263" at="34,27,36,27" />
+      <scope id="5589305777382265118" at="42,47,44,138" />
+      <scope id="4061343222277639916" at="68,66,70,35" />
+      <scope id="5054006938939416795" at="39,0,42,0" />
+      <scope id="6361663039783405817" at="61,78,64,30">
+        <var name="mon" id="6361663039783405838" />
+      </scope>
+      <scope id="5589305777382258421" at="23,0,27,0" />
+      <scope id="5589305777382265052" at="27,46,31,31" />
+      <scope id="7480932071789568260" at="33,36,37,5" />
+      <scope id="5589305777382265115" at="42,0,46,0" />
+      <scope id="8848530710797810734" at="73,68,77,73" />
+      <scope id="4061343222277639911" at="67,0,72,0">
+        <var name="wrk" id="4061343222277639912" />
+      </scope>
+      <scope id="5589305777382265049" at="27,0,33,0">
+        <var name="monitor" id="5589305777382265053" />
+      </scope>
+      <scope id="7480932071789568257" at="33,0,39,0" />
+      <scope id="4061343222277639922" at="59,66,65,5" />
+      <scope id="8848530710797810624" at="72,82,79,19" />
+      <scope id="4061343222277639932" at="47,63,56,135">
+        <var name="submon" id="8848530710797796331" />
+      </scope>
+      <scope id="4061343222277639917" at="58,0,67,0">
+        <var name="wrk" id="4061343222277639920" />
+      </scope>
+      <scope id="8848530710797810621" at="72,0,81,0">
+        <var name="work" id="8848530710797810627" />
+      </scope>
+      <scope id="4061343222277639923" at="46,0,58,0">
+        <var name="wrk" id="4061343222277827158" />
+      </scope>
+      <unit id="5589305777382258419" at="15,0,82,0" name="jetbrains.mps.internal.make.runtime.backports.ProgressMonitorProgressStrategy" />
+    </file>
+  </root>
+</debug-info>
+

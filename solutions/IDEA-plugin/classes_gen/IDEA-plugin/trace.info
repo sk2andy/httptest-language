@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <root nodeRef="r:3a27b0a2-38dd-4ae0-b42b-c61389e618cf(IDEA-plugin)/62269059381157554">
+    <file name="HTTPTest.xml">
+      <unit id="62269059381157554" at="1,0,304,10" name="IDEA-plugin.HTTPTest" />
+    </file>
+  </root>
+</debug-info>
+

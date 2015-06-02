@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root nodeRef="r:f39afe13-666a-48f2-9d7c-2f9366f78fe5(jetbrains.mps.typesystemEngine.checker)/3364928926666865010">
+    <file name="TypesystemCheckerComponent.java">
+      <node id="3364928926666865036" at="9,0,10,0" concept="2" trace="myCheckersComponent" />
+      <node id="3364928926666865139" at="10,0,11,0" concept="2" trace="myChecker" />
+      <node id="3364928926666865040" at="11,66,12,36" concept="1" />
+      <node id="3364928926666865143" at="12,36,13,40" concept="1" />
+      <node id="3364928926666865046" at="16,22,17,46" concept="1" />
+      <node id="3364928926666865153" at="20,25,21,49" concept="1" />
+      <node id="3364928926666865012" at="11,0,15,0" concept="0" trace="TypesystemCheckerComponent#(Ljetbrains/mps/checkers/CheckersComponent;)V" />
+      <node id="3364928926666865027" at="15,0,19,0" concept="4" trace="init#()V" />
+      <node id="3364928926666865017" at="19,0,23,0" concept="4" trace="dispose#()V" />
+      <scope id="3364928926666865030" at="16,22,17,46" />
+      <scope id="3364928926666865020" at="20,25,21,49" />
+      <scope id="3364928926666865015" at="11,66,13,40" />
+      <scope id="3364928926666865012" at="11,0,15,0">
+        <var name="component" id="3364928926666865034" />
+      </scope>
+      <scope id="3364928926666865027" at="15,0,19,0" />
+      <scope id="3364928926666865017" at="19,0,23,0" />
+      <unit id="3364928926666865010" at="8,0,24,0" name="jetbrains.mps.typesystemEngine.checker.TypesystemCheckerComponent" />
+    </file>
+  </root>
+  <root nodeRef="r:f39afe13-666a-48f2-9d7c-2f9366f78fe5(jetbrains.mps.typesystemEngine.checker)/5231630840089786268">
+    <file name="TypesystemChecker.java">
+      <node id="5231630840089786288" at="22,31,23,25" concept="6" />
+      <node id="1436978233839335265" at="26,76,27,69" concept="5" />
+      <node id="5376460755542186298" at="30,64,31,112" concept="5" />
+      <node id="5376460755542186317" at="32,71,33,33" concept="1" />
+      <node id="1436978233839335295" at="36,7,37,18" concept="6" />
+      <node id="5231630840089786270" at="19,0,21,0" concept="0" trace="TypesystemChecker#()V" />
+      <node id="5376460755542186309" at="31,112,34,9" concept="3" />
+      <node id="5231630840089786275" at="21,0,25,0" concept="4" trace="getCategory#()Ljava/lang/String;" />
+      <node id="5376460755542186292" at="29,0,36,0" concept="4" trace="run#(Ljetbrains/mps/typesystem/inference/TypeCheckingContext;)V" />
+      <node id="5376460755542186281" at="27,69,36,7" concept="1" />
+      <node id="5231630840089786279" at="25,0,39,0" concept="4" trace="getErrors#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/module/SRepository;)Ljava/util/Set;" />
+      <scope id="5231630840089786273" at="19,30,19,30" />
+      <scope id="5231630840089786278" at="22,31,23,25" />
+      <scope id="5376460755542186316" at="32,71,33,33" />
+      <scope id="5231630840089786270" at="19,0,21,0" />
+      <scope id="5376460755542186309" at="31,112,34,9">
+        <var name="pair" id="5376460755542186311" />
+      </scope>
+      <scope id="5231630840089786275" at="21,0,25,0" />
+      <scope id="5376460755542186297" at="30,64,34,9">
+        <var name="nodeWithErrors" id="5376460755542186299" />
+      </scope>
+      <scope id="5376460755542186292" at="29,0,36,0">
+        <var name="typeCheckingContext" id="5376460755542186295" />
+      </scope>
+      <scope id="5231630840089786287" at="26,76,37,18">
+        <var name="result" id="1436978233839335266" />
+      </scope>
+      <scope id="5231630840089786279" at="25,0,39,0">
+        <var name="node" id="5231630840089786283" />
+        <var name="repository" id="5231630840089786285" />
+      </scope>
+      <unit id="5376460755542186290" at="28,75,36,5" name="jetbrains.mps.typesystemEngine.checker.TypesystemChecker$1" />
+      <unit id="5231630840089786268" at="18,0,40,0" name="jetbrains.mps.typesystemEngine.checker.TypesystemChecker" />
+    </file>
+  </root>
+</debug-info>
+

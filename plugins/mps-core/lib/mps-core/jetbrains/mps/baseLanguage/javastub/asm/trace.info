@@ -1,0 +1,1486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/3275604661365085736">
+    <file name="ASMBoundedType.java">
+      <node id="7241381882860008822" at="7,0,8,0" concept="3" trace="myBound" />
+      <node id="7241381882860008830" at="8,40,9,20" concept="2" />
+      <node id="7241381882860008840" at="11,29,12,19" concept="9" />
+      <node id="3275604661365124362" at="14,39,15,20" concept="2" />
+      <node id="7241381882860008825" at="8,0,11,0" concept="1" trace="ASMBoundedType#(Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;)V" />
+      <node id="7241381882860008836" at="11,0,14,0" concept="7" trace="getBound#()Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="3275604661365124254" at="14,0,17,0" concept="7" trace="setBound#(Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;)V" />
+      <scope id="7241381882860008829" at="8,40,9,20" />
+      <scope id="7241381882860008839" at="11,29,12,19" />
+      <scope id="3275604661365124257" at="14,39,15,20" />
+      <scope id="7241381882860008825" at="8,0,11,0">
+        <var name="bound" id="7241381882860008827" />
+      </scope>
+      <scope id="7241381882860008836" at="11,0,14,0" />
+      <scope id="3275604661365124254" at="14,0,17,0">
+        <var name="bound" id="3275604661365124474" />
+      </scope>
+      <unit id="3275604661365085736" at="6,0,19,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMBoundedType" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/6849912058625332189">
+    <file name="ASMAnnotation.java">
+      <node id="6849912058625332191" at="13,0,14,0" concept="3" trace="myType" />
+      <node id="6849912058625332194" at="14,0,15,0" concept="3" trace="myValues" />
+      <node id="6849912058625332205" at="15,45,16,48" concept="2" />
+      <node id="6849912058625332219" at="17,30,18,75" concept="2" />
+      <node id="6849912058625332250" at="19,59,20,44" concept="8" />
+      <node id="6849912058625332261" at="20,44,21,78" concept="8" />
+      <node id="6849912058625332275" at="21,78,22,44" concept="2" />
+      <node id="6849912058625332376" at="26,42,27,110" concept="9" />
+      <node id="6849912058625332390" at="29,28,30,18" concept="9" />
+      <node id="6849912058625332294" at="33,42,34,55" concept="9" />
+      <node id="6849912058625332305" at="36,32,37,45" concept="9" />
+      <node id="6849912058625332316" at="39,36,40,41" concept="8" />
+      <node id="6849912058625332324" at="40,41,41,52" concept="9" />
+      <node id="6849912058625332338" at="43,32,44,31" concept="8" />
+      <node id="6849912058625332356" at="45,45,46,61" concept="2" />
+      <node id="6849912058625332366" at="47,7,48,18" concept="9" />
+      <node id="6849912058625332368" at="49,5,50,17" concept="9" />
+      <node id="6849912058625332370" at="26,0,29,0" concept="7" trace="getValues#()Ljava/util/Map;" />
+      <node id="6849912058625332386" at="29,0,32,0" concept="7" trace="getType#()Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="6849912058625332289" at="32,51,35,5" concept="6" />
+      <node id="6849912058625332300" at="35,5,38,5" concept="6" />
+      <node id="6849912058625332344" at="44,31,47,7" concept="4" />
+      <node id="6849912058625332310" at="38,5,42,5" concept="6" />
+      <node id="6849912058625332233" at="18,75,23,7" concept="4" />
+      <node id="6849912058625332333" at="42,5,49,5" concept="6" />
+      <node id="6849912058625332212" at="16,48,24,5" concept="6" />
+      <node id="6849912058625332199" at="15,0,26,0" concept="1" trace="ASMAnnotation#(Lorg/jetbrains/org/objectweb/asm/tree/AnnotationNode;)V" />
+      <node id="6849912058625332283" at="32,0,52,0" concept="12" trace="processValue#(Ljava/lang/Object;)Ljava/lang/Object;" />
+      <scope id="6849912058625332375" at="26,42,27,110" />
+      <scope id="6849912058625332389" at="29,28,30,18" />
+      <scope id="6849912058625332293" at="33,42,34,55" />
+      <scope id="6849912058625332304" at="36,32,37,45" />
+      <scope id="6849912058625332355" at="45,45,46,61" />
+      <scope id="6849912058625332315" at="39,36,41,52">
+        <var name="svalue" id="6849912058625332317" />
+      </scope>
+      <scope id="6849912058625332249" at="19,59,22,44">
+        <var name="key" id="6849912058625332251" />
+        <var name="value" id="6849912058625332262" />
+      </scope>
+      <scope id="6849912058625332370" at="26,0,29,0" />
+      <scope id="6849912058625332386" at="29,0,32,0" />
+      <scope id="6849912058625332344" at="44,31,47,7">
+        <var name="i" id="6849912058625332350" />
+      </scope>
+      <scope id="6849912058625332233" at="18,75,23,7">
+        <var name="i" id="6849912058625332243" />
+      </scope>
+      <scope id="6849912058625332337" at="43,32,48,18">
+        <var name="list" id="6849912058625332339" />
+      </scope>
+      <scope id="6849912058625332218" at="17,30,23,7" />
+      <scope id="6849912058625332204" at="15,45,24,5" />
+      <scope id="6849912058625332199" at="15,0,26,0">
+        <var name="node" id="6849912058625332202" />
+      </scope>
+      <scope id="6849912058625332288" at="32,51,50,17" />
+      <scope id="6849912058625332283" at="32,0,52,0">
+        <var name="value" id="6849912058625332286" />
+      </scope>
+      <unit id="6849912058625332189" at="12,0,53,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMAnnotation" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860001929">
+    <file name="SignatureVisitorAdapter.java">
+      <node id="8471909024438049477" at="9,36,10,24" concept="13" />
+      <node id="7241381882860007088" at="16,45,17,41" concept="9" />
+      <node id="7241381882860007094" at="20,49,21,41" concept="9" />
+      <node id="7241381882860007100" at="24,45,25,41" concept="9" />
+      <node id="7241381882860007106" at="28,44,29,41" concept="9" />
+      <node id="7241381882860007112" at="32,48,33,41" concept="9" />
+      <node id="7241381882860007118" at="36,45,37,41" concept="9" />
+      <node id="7241381882860007124" at="40,48,41,41" concept="9" />
+      <node id="7241381882860007142" at="50,44,51,41" concept="9" />
+      <node id="7241381882860007166" at="63,60,64,41" concept="9" />
+      <node id="7241381882860007075" at="9,0,12,0" concept="1" trace="SignatureVisitorAdapter#()V" />
+      <node id="7241381882860007078" at="12,0,15,0" concept="7" trace="visitFormalTypeParameter#(Ljava/lang/String;)V" />
+      <node id="7241381882860007126" at="43,0,46,0" concept="7" trace="visitBaseType#(C)V" />
+      <node id="7241381882860007132" at="46,0,49,0" concept="7" trace="visitTypeVariable#(Ljava/lang/String;)V" />
+      <node id="7241381882860007144" at="53,0,56,0" concept="7" trace="visitClassType#(Ljava/lang/String;)V" />
+      <node id="7241381882860007150" at="56,0,59,0" concept="7" trace="visitInnerClassType#(Ljava/lang/String;)V" />
+      <node id="7241381882860007156" at="59,0,62,0" concept="7" trace="visitTypeArgument#()V" />
+      <node id="7241381882860007168" at="66,0,69,0" concept="7" trace="visitEnd#()V" />
+      <node id="7241381882860007084" at="15,0,19,0" concept="7" trace="visitClassBound#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007090" at="19,0,23,0" concept="7" trace="visitInterfaceBound#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007096" at="23,0,27,0" concept="7" trace="visitSuperclass#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007102" at="27,0,31,0" concept="7" trace="visitInterface#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007108" at="31,0,35,0" concept="7" trace="visitParameterType#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007114" at="35,0,39,0" concept="7" trace="visitReturnType#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007120" at="39,0,43,0" concept="7" trace="visitExceptionType#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007138" at="49,0,53,0" concept="7" trace="visitArrayType#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007160" at="62,0,66,0" concept="7" trace="visitTypeArgument#(C)Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <scope id="7241381882860007083" at="13,53,13,53" />
+      <scope id="7241381882860007131" at="44,46,44,46" />
+      <scope id="7241381882860007137" at="47,46,47,46" />
+      <scope id="7241381882860007149" at="54,43,54,43" />
+      <scope id="7241381882860007155" at="57,48,57,48" />
+      <scope id="7241381882860007159" at="60,35,60,35" />
+      <scope id="7241381882860007171" at="67,26,67,26" />
+      <scope id="7241381882860007077" at="9,36,10,24" />
+      <scope id="7241381882860007087" at="16,45,17,41" />
+      <scope id="7241381882860007093" at="20,49,21,41" />
+      <scope id="7241381882860007099" at="24,45,25,41" />
+      <scope id="7241381882860007105" at="28,44,29,41" />
+      <scope id="7241381882860007111" at="32,48,33,41" />
+      <scope id="7241381882860007117" at="36,45,37,41" />
+      <scope id="7241381882860007123" at="40,48,41,41" />
+      <scope id="7241381882860007141" at="50,44,51,41" />
+      <scope id="7241381882860007165" at="63,60,64,41" />
+      <scope id="7241381882860007075" at="9,0,12,0" />
+      <scope id="7241381882860007078" at="12,0,15,0">
+        <var name="name" id="7241381882860007081" />
+      </scope>
+      <scope id="7241381882860007126" at="43,0,46,0">
+        <var name="descriptor" id="7241381882860007129" />
+      </scope>
+      <scope id="7241381882860007132" at="46,0,49,0">
+        <var name="name" id="7241381882860007135" />
+      </scope>
+      <scope id="7241381882860007144" at="53,0,56,0">
+        <var name="name" id="7241381882860007147" />
+      </scope>
+      <scope id="7241381882860007150" at="56,0,59,0">
+        <var name="name" id="7241381882860007153" />
+      </scope>
+      <scope id="7241381882860007156" at="59,0,62,0" />
+      <scope id="7241381882860007168" at="66,0,69,0" />
+      <scope id="7241381882860007084" at="15,0,19,0" />
+      <scope id="7241381882860007090" at="19,0,23,0" />
+      <scope id="7241381882860007096" at="23,0,27,0" />
+      <scope id="7241381882860007102" at="27,0,31,0" />
+      <scope id="7241381882860007108" at="31,0,35,0" />
+      <scope id="7241381882860007114" at="35,0,39,0" />
+      <scope id="7241381882860007120" at="39,0,43,0" />
+      <scope id="7241381882860007138" at="49,0,53,0" />
+      <scope id="7241381882860007160" at="62,0,66,0">
+        <var name="wildcard" id="7241381882860007163" />
+      </scope>
+      <unit id="7241381882860001929" at="8,0,70,0" name="jetbrains.mps.baseLanguage.javastub.asm.SignatureVisitorAdapter" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860002146">
+    <file name="ASMArrayType.java">
+      <node id="7241381882860002149" at="7,0,8,0" concept="3" trace="myElementType" />
+      <node id="7241381882860002156" at="8,49,9,32" concept="2" />
+      <node id="7241381882860002166" at="11,35,12,25" concept="9" />
+      <node id="7241381882860002152" at="8,0,11,0" concept="1" trace="ASMArrayType#(Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;)V" />
+      <node id="7241381882860002162" at="11,0,14,0" concept="7" trace="getElementType#()Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <scope id="7241381882860002155" at="8,49,9,32" />
+      <scope id="7241381882860002165" at="11,35,12,25" />
+      <scope id="7241381882860002152" at="8,0,11,0">
+        <var name="elementType" id="7241381882860002153" />
+      </scope>
+      <scope id="7241381882860002162" at="11,0,14,0" />
+      <unit id="7241381882860002146" at="6,0,15,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMArrayType" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860002170">
+    <file name="ASMClassType.java">
+      <node id="7241381882860002173" at="7,0,8,0" concept="11" trace="OBJECT" />
+      <node id="7241381882860002179" at="8,0,9,0" concept="3" trace="myName" />
+      <node id="7241381882860002187" at="9,36,10,18" concept="2" />
+      <node id="7241381882860002197" at="12,27,13,18" concept="9" />
+      <node id="7241381882860002205" at="16,28,17,30" concept="9" />
+      <node id="7241381882860002182" at="9,0,12,0" concept="1" trace="ASMClassType#(Ljava/lang/String;)V" />
+      <node id="7241381882860002193" at="12,0,15,0" concept="7" trace="getName#()Ljava/lang/String;" />
+      <node id="7241381882860002201" at="15,0,19,0" concept="7" trace="toString#()Ljava/lang/String;" />
+      <scope id="7241381882860002186" at="9,36,10,18" />
+      <scope id="7241381882860002196" at="12,27,13,18" />
+      <scope id="7241381882860002204" at="16,28,17,30" />
+      <scope id="7241381882860002182" at="9,0,12,0">
+        <var name="name" id="7241381882860002184" />
+      </scope>
+      <scope id="7241381882860002193" at="12,0,15,0" />
+      <scope id="7241381882860002201" at="15,0,19,0" />
+      <unit id="7241381882860002170" at="6,0,20,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMClassType" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860005690">
+    <file name="ASMMethod.java">
+      <node id="7241381882860005696" at="15,0,16,0" concept="3" trace="myMethod" />
+      <node id="7241381882860005699" at="16,0,17,0" concept="3" trace="myReturnType" />
+      <node id="7241381882860005702" at="17,0,18,0" concept="3" trace="myGenericReturnType" />
+      <node id="7241381882860005705" at="18,0,19,0" concept="3" trace="myTypeVariables" />
+      <node id="7241381882860005709" at="19,0,20,0" concept="3" trace="myParameterTypes" />
+      <node id="7241381882860005713" at="20,0,21,0" concept="3" trace="myGenericParameterTypes" />
+      <node id="7241381882860005717" at="21,0,22,0" concept="3" trace="myParameterNames" />
+      <node id="7241381882860005721" at="22,0,23,0" concept="3" trace="myParameterAnnotations" />
+      <node id="7241381882860005726" at="23,0,24,0" concept="3" trace="myExceptions" />
+      <node id="7241381882860005730" at="24,0,25,0" concept="3" trace="myAnnotations" />
+      <node id="6678934770475967338" at="25,0,26,0" concept="3" trace="myAnnotationDefault" />
+      <node id="7241381882860005738" at="26,44,27,22" concept="2" />
+      <node id="7241381882860005744" at="27,22,28,70" concept="2" />
+      <node id="7241381882860005769" at="29,35,30,140" concept="2" />
+      <node id="7241381882860005762" at="31,12,32,83" concept="2" />
+      <node id="7241381882860005796" at="34,35,35,69" concept="2" />
+      <node id="7241381882860005787" at="36,12,37,41" concept="2" />
+      <node id="7241381882860005805" at="38,5,39,62" concept="8" />
+      <node id="7241381882860005813" at="39,62,40,150" concept="2" />
+      <node id="7241381882860005836" at="41,34,42,49" concept="2" />
+      <node id="7241381882860005861" at="44,35,45,77" concept="2" />
+      <node id="7241381882860005852" at="46,12,47,49" concept="2" />
+      <node id="3947223005607324292" at="48,5,49,90" concept="10" />
+      <node id="3947223005607410948" at="49,90,50,53" concept="10" />
+      <node id="7241381882860005875" at="51,61,52,57" concept="8" />
+      <node id="7241381882860005885" at="52,57,53,69" concept="8" />
+      <node id="7241381882860005899" at="54,50,55,115" concept="2" />
+      <node id="7241381882860005923" at="57,56,58,48" concept="2" />
+      <node id="7241381882860005933" at="58,48,59,56" concept="2" />
+      <node id="7241381882860005947" at="60,52,61,110" concept="2" />
+      <node id="7241381882860005962" at="64,5,65,89" concept="2" />
+      <node id="7241381882860005985" at="66,55,67,45" concept="8" />
+      <node id="7241381882860006028" at="70,36,71,57" concept="2" />
+      <node id="7241381882860006034" at="72,11,73,49" concept="2" />
+      <node id="7241381882860006079" at="78,36,79,57" concept="2" />
+      <node id="7241381882860006085" at="80,11,81,49" concept="2" />
+      <node id="7241381882860006092" at="83,7,84,129" concept="2" />
+      <node id="7241381882860006109" at="85,5,86,57" concept="8" />
+      <node id="7241381882860006124" at="87,35,88,64" concept="2" />
+      <node id="7241381882860006179" at="90,34,91,32" concept="2" />
+      <node id="7241381882860006138" at="92,12,93,72" concept="2" />
+      <node id="7241381882860006165" at="94,59,95,64" concept="2" />
+      <node id="7241381882860006202" at="98,87,99,185" concept="8" />
+      <node id="7241381882860006240" at="99,185,100,57" concept="2" />
+      <node id="7241381882860006270" at="102,86,103,51" concept="8" />
+      <node id="7241381882860006276" at="103,51,104,32" concept="2" />
+      <node id="7241381882860006304" at="108,88,109,51" concept="8" />
+      <node id="7241381882860006310" at="109,51,110,32" concept="2" />
+      <node id="7241381882860006325" at="114,40,115,72" concept="2" />
+      <node id="1157126008575868679" at="116,57,117,38" concept="2" />
+      <node id="8278838086631112232" at="119,100,120,45" concept="8" />
+      <node id="1157126008575868566" at="121,49,122,60" concept="8" />
+      <node id="1157126008575868617" at="122,60,123,42" concept="8" />
+      <node id="1157126008575868645" at="124,62,125,51" concept="2" />
+      <node id="6678934770475971126" at="130,43,131,81" concept="2" />
+      <node id="6678934770475971106" at="134,40,135,31" concept="9" />
+      <node id="7241381882860006388" at="137,27,138,25" concept="9" />
+      <node id="7241381882860006398" at="140,29,141,56" concept="9" />
+      <node id="7241381882860006413" at="143,30,144,56" concept="9" />
+      <node id="7241381882860006428" at="146,29,147,55" concept="9" />
+      <node id="7241381882860006443" at="149,32,150,58" concept="9" />
+      <node id="7241381882860006458" at="152,39,153,63" concept="9" />
+      <node id="7241381882860006477" at="155,29,156,55" concept="9" />
+      <node id="7241381882860006492" at="158,33,159,59" concept="9" />
+      <node id="7241381882860006507" at="161,28,162,54" concept="9" />
+      <node id="7241381882860006522" at="164,31,165,57" concept="9" />
+      <node id="7241381882860006537" at="167,29,168,55" concept="9" />
+      <node id="1116675434314455517" at="170,32,171,58" concept="9" />
+      <node id="7241381882860006552" at="173,34,174,42" concept="9" />
+      <node id="7241381882860006565" at="176,40,177,172" concept="9" />
+      <node id="7241381882860006588" at="179,52,180,27" concept="9" />
+      <node id="7241381882860006596" at="182,34,183,24" concept="9" />
+      <node id="7241381882860006604" at="185,41,186,31" concept="9" />
+      <node id="7241381882860006613" at="188,47,189,140" concept="9" />
+      <node id="7241381882860006630" at="191,44,192,58" concept="9" />
+      <node id="7241381882860006640" at="194,51,195,65" concept="9" />
+      <node id="7241381882860006650" at="197,43,198,141" concept="9" />
+      <node id="7241381882860006668" at="200,62,201,64" concept="9" />
+      <node id="7241381882860006678" at="203,44,204,54" concept="9" />
+      <node id="7241381882860005760" at="31,10,33,5" concept="0" />
+      <node id="7241381882860005785" at="36,10,38,5" concept="0" />
+      <node id="7241381882860005850" at="46,10,48,5" concept="0" />
+      <node id="7241381882860005831" at="40,150,43,5" concept="5" />
+      <node id="7241381882860005894" at="53,69,56,7" concept="6" />
+      <node id="7241381882860005942" at="59,56,62,9" concept="6" />
+      <node id="7241381882860006023" at="69,98,72,11" concept="6" />
+      <node id="7241381882860006074" at="77,100,80,11" concept="6" />
+      <node id="7241381882860006117" at="86,57,89,5" concept="6" />
+      <node id="7241381882860006153" at="93,72,96,7" concept="5" />
+      <node id="1157126008575868670" at="115,72,118,7" concept="4" />
+      <node id="1157126008575868582" at="123,42,126,11" concept="6" />
+      <node id="6678934770475971112" at="129,5,132,5" concept="6" />
+      <node id="6678934770475968071" at="134,0,137,0" concept="7" trace="getAnnotationDefault#()Ljava/lang/Object;" />
+      <node id="7241381882860006384" at="137,0,140,0" concept="7" trace="getName#()Ljava/lang/String;" />
+      <node id="7241381882860006394" at="140,0,143,0" concept="7" trace="isVarArg#()Z" />
+      <node id="7241381882860006409" at="143,0,146,0" concept="7" trace="isPrivate#()Z" />
+      <node id="7241381882860006424" at="146,0,149,0" concept="7" trace="isPublic#()Z" />
+      <node id="7241381882860006439" at="149,0,152,0" concept="7" trace="isProtected#()Z" />
+      <node id="7241381882860006454" at="152,0,155,0" concept="7" trace="isPackageProtected#()Z" />
+      <node id="7241381882860006473" at="155,0,158,0" concept="7" trace="isStatic#()Z" />
+      <node id="7241381882860006488" at="158,0,161,0" concept="7" trace="isDeprecated#()Z" />
+      <node id="7241381882860006503" at="161,0,164,0" concept="7" trace="isFinal#()Z" />
+      <node id="7241381882860006518" at="164,0,167,0" concept="7" trace="isAbstract#()Z" />
+      <node id="7241381882860006533" at="167,0,170,0" concept="7" trace="isBridge#()Z" />
+      <node id="1116675434314450459" at="170,0,173,0" concept="7" trace="isSynthetic#()Z" />
+      <node id="7241381882860006548" at="173,0,176,0" concept="7" trace="isConstructor#()Z" />
+      <node id="7241381882860006561" at="176,0,179,0" concept="7" trace="isCompilerGenerated#()Z" />
+      <node id="7241381882860006583" at="179,0,182,0" concept="7" trace="getTypeParameters#()Ljava/util/List;" />
+      <node id="7241381882860006592" at="182,0,185,0" concept="7" trace="getReturnType#()Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860006600" at="185,0,188,0" concept="7" trace="getGenericReturnType#()Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860006608" at="188,0,191,0" concept="7" trace="getAnnotations#()Ljava/util/List;" />
+      <node id="7241381882860006625" at="191,0,194,0" concept="7" trace="getParameterTypes#()Ljava/util/List;" />
+      <node id="7241381882860006635" at="194,0,197,0" concept="7" trace="getGenericParameterTypes#()Ljava/util/List;" />
+      <node id="7241381882860006645" at="197,0,200,0" concept="7" trace="getParameterNames#()Ljava/util/List;" />
+      <node id="7241381882860006662" at="200,0,203,0" concept="7" trace="getParameterAnnotations#()Ljava/util/List;" />
+      <node id="7241381882860006673" at="203,0,206,0" concept="7" trace="getExceptionTypes#()Ljava/util/List;" />
+      <node id="7241381882860006258" at="101,48,105,9" concept="5" />
+      <node id="7241381882860006292" at="107,50,111,9" concept="5" />
+      <node id="7241381882860005754" at="28,70,33,5" concept="6" />
+      <node id="7241381882860005779" at="33,5,38,5" concept="6" />
+      <node id="7241381882860005844" at="43,5,48,5" concept="6" />
+      <node id="7241381882860006136" at="92,10,97,5" concept="0" />
+      <node id="7241381882860006009" at="68,108,74,9" concept="5" />
+      <node id="7241381882860006060" at="76,112,82,9" concept="5" />
+      <node id="7241381882860006249" at="100,57,106,7" concept="6" />
+      <node id="7241381882860006283" at="106,7,112,7" concept="6" />
+      <node id="7241381882860005914" at="56,7,63,7" concept="6" />
+      <node id="1157126008575868539" at="120,45,127,9" concept="5" />
+      <node id="7241381882860005990" at="67,45,75,7" concept="6" />
+      <node id="7241381882860006041" at="75,7,83,7" concept="6" />
+      <node id="7241381882860006131" at="89,5,97,5" concept="6" />
+      <node id="7241381882860006338" at="118,7,128,7" concept="6" />
+      <node id="7241381882860005870" at="50,53,64,5" concept="6" />
+      <node id="7241381882860006185" at="97,5,113,5" concept="6" />
+      <node id="7241381882860006317" at="113,5,129,5" concept="6" />
+      <node id="7241381882860005976" at="65,89,85,5" concept="4" />
+      <node id="7241381882860005734" at="26,0,134,0" concept="1" trace="ASMMethod#(Lorg/jetbrains/org/objectweb/asm/tree/MethodNode;)V" />
+      <scope id="7241381882860005768" at="29,35,30,140" />
+      <scope id="7241381882860005761" at="31,12,32,83" />
+      <scope id="7241381882860005795" at="34,35,35,69" />
+      <scope id="7241381882860005786" at="36,12,37,41" />
+      <scope id="7241381882860005835" at="41,34,42,49" />
+      <scope id="7241381882860005860" at="44,35,45,77" />
+      <scope id="7241381882860005851" at="46,12,47,49" />
+      <scope id="7241381882860005898" at="54,50,55,115" />
+      <scope id="7241381882860005946" at="60,52,61,110" />
+      <scope id="7241381882860006027" at="70,36,71,57" />
+      <scope id="7241381882860006078" at="78,36,79,57" />
+      <scope id="7241381882860006123" at="87,35,88,64" />
+      <scope id="7241381882860006178" at="90,34,91,32" />
+      <scope id="7241381882860006164" at="94,59,95,64" />
+      <scope id="1157126008575868678" at="116,57,117,38" />
+      <scope id="1157126008575868583" at="124,62,125,51" />
+      <scope id="6678934770475971113" at="130,43,131,81" />
+      <scope id="6678934770475968074" at="134,40,135,31" />
+      <scope id="7241381882860006387" at="137,27,138,25" />
+      <scope id="7241381882860006397" at="140,29,141,56" />
+      <scope id="7241381882860006412" at="143,30,144,56" />
+      <scope id="7241381882860006427" at="146,29,147,55" />
+      <scope id="7241381882860006442" at="149,32,150,58" />
+      <scope id="7241381882860006457" at="152,39,153,63" />
+      <scope id="7241381882860006476" at="155,29,156,55" />
+      <scope id="7241381882860006491" at="158,33,159,59" />
+      <scope id="7241381882860006506" at="161,28,162,54" />
+      <scope id="7241381882860006521" at="164,31,165,57" />
+      <scope id="7241381882860006536" at="167,29,168,55" />
+      <scope id="1116675434314450462" at="170,32,171,58" />
+      <scope id="7241381882860006551" at="173,34,174,42" />
+      <scope id="7241381882860006564" at="176,40,177,172" />
+      <scope id="7241381882860006587" at="179,52,180,27" />
+      <scope id="7241381882860006595" at="182,34,183,24" />
+      <scope id="7241381882860006603" at="185,41,186,31" />
+      <scope id="7241381882860006612" at="188,47,189,140" />
+      <scope id="7241381882860006629" at="191,44,192,58" />
+      <scope id="7241381882860006639" at="194,51,195,65" />
+      <scope id="7241381882860006649" at="197,43,198,141" />
+      <scope id="7241381882860006667" at="200,62,201,64" />
+      <scope id="7241381882860006677" at="203,44,204,54" />
+      <scope id="7241381882860006269" at="102,86,104,32">
+        <var name="aa" id="7241381882860006271" />
+      </scope>
+      <scope id="7241381882860006303" at="108,88,110,32">
+        <var name="aa" id="7241381882860006305" />
+      </scope>
+      <scope id="7241381882860005831" at="40,150,43,5">
+        <var name="t" id="7241381882860005833" />
+      </scope>
+      <scope id="7241381882860006153" at="93,72,96,7">
+        <var name="s" id="7241381882860006162" />
+      </scope>
+      <scope id="1157126008575868670" at="115,72,118,7">
+        <var name="i" id="1157126008575868690" />
+      </scope>
+      <scope id="6678934770475968071" at="134,0,137,0" />
+      <scope id="7241381882860006384" at="137,0,140,0" />
+      <scope id="7241381882860006394" at="140,0,143,0" />
+      <scope id="7241381882860006409" at="143,0,146,0" />
+      <scope id="7241381882860006424" at="146,0,149,0" />
+      <scope id="7241381882860006439" at="149,0,152,0" />
+      <scope id="7241381882860006454" at="152,0,155,0" />
+      <scope id="7241381882860006473" at="155,0,158,0" />
+      <scope id="7241381882860006488" at="158,0,161,0" />
+      <scope id="7241381882860006503" at="161,0,164,0" />
+      <scope id="7241381882860006518" at="164,0,167,0" />
+      <scope id="7241381882860006533" at="167,0,170,0" />
+      <scope id="1116675434314450459" at="170,0,173,0" />
+      <scope id="7241381882860006548" at="173,0,176,0" />
+      <scope id="7241381882860006561" at="176,0,179,0" />
+      <scope id="7241381882860006583" at="179,0,182,0" />
+      <scope id="7241381882860006592" at="182,0,185,0" />
+      <scope id="7241381882860006600" at="185,0,188,0" />
+      <scope id="7241381882860006608" at="188,0,191,0" />
+      <scope id="7241381882860006625" at="191,0,194,0" />
+      <scope id="7241381882860006635" at="194,0,197,0" />
+      <scope id="7241381882860006645" at="197,0,200,0" />
+      <scope id="7241381882860006662" at="200,0,203,0" />
+      <scope id="7241381882860006673" at="203,0,206,0" />
+      <scope id="7241381882860006022" at="69,98,73,49" />
+      <scope id="7241381882860006073" at="77,100,81,49" />
+      <scope id="7241381882860006137" at="92,12,96,7" />
+      <scope id="7241381882860006257" at="101,48,105,9" />
+      <scope id="7241381882860006258" at="101,48,105,9">
+        <var name="an" id="7241381882860006267" />
+      </scope>
+      <scope id="7241381882860006291" at="107,50,111,9" />
+      <scope id="7241381882860006292" at="107,50,111,9">
+        <var name="an" id="7241381882860006301" />
+      </scope>
+      <scope id="7241381882860005922" at="57,56,62,9" />
+      <scope id="1157126008575868540" at="121,49,126,11">
+        <var name="index" id="1157126008575868618" />
+        <var name="node" id="1157126008575868567" />
+      </scope>
+      <scope id="7241381882860006008" at="68,108,74,9" />
+      <scope id="7241381882860006009" at="68,108,74,9">
+        <var name="an" id="7241381882860006020" />
+      </scope>
+      <scope id="7241381882860006059" at="76,112,82,9" />
+      <scope id="7241381882860006060" at="76,112,82,9">
+        <var name="an" id="7241381882860006071" />
+      </scope>
+      <scope id="1157126008575868539" at="120,45,127,9">
+        <var name="lv" id="1157126008575868543" />
+      </scope>
+      <scope id="7241381882860006383" at="119,100,127,9">
+        <var name="offset" id="8278838086631112233" />
+      </scope>
+      <scope id="7241381882860005874" at="51,61,63,7">
+        <var name="lastIndex" id="7241381882860005876" />
+        <var name="lastParamType" id="7241381882860005886" />
+      </scope>
+      <scope id="7241381882860006201" at="98,87,112,7">
+        <var name="size" id="7241381882860006203" />
+      </scope>
+      <scope id="7241381882860006324" at="114,40,128,7" />
+      <scope id="7241381882860005984" at="66,55,84,129">
+        <var name="annotations" id="7241381882860005986" />
+      </scope>
+      <scope id="7241381882860005976" at="65,89,85,5">
+        <var name="i" id="7241381882860006106" />
+      </scope>
+      <scope id="7241381882860005737" at="26,44,132,5">
+        <var name="argumentTypes" id="7241381882860005806" />
+        <var name="exceptions" id="7241381882860006110" />
+      </scope>
+      <scope id="7241381882860005734" at="26,0,134,0">
+        <var name="method" id="7241381882860005735" />
+      </scope>
+      <unit id="7241381882860005690" at="14,0,207,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMMethod" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860006706">
+    <file name="ASMPrimitiveType.java">
+      <node id="7241381882860006709" at="7,0,8,0" concept="11" trace="VOID" />
+      <node id="7241381882860006715" at="8,0,9,0" concept="11" trace="BOOLEAN" />
+      <node id="7241381882860006721" at="9,0,10,0" concept="11" trace="CHAR" />
+      <node id="7241381882860006727" at="10,0,11,0" concept="11" trace="BYTE" />
+      <node id="7241381882860006733" at="11,0,12,0" concept="11" trace="SHORT" />
+      <node id="7241381882860006739" at="12,0,13,0" concept="11" trace="INT" />
+      <node id="7241381882860006745" at="13,0,14,0" concept="11" trace="FLOAT" />
+      <node id="7241381882860006751" at="14,0,15,0" concept="11" trace="LONG" />
+      <node id="7241381882860006757" at="15,0,16,0" concept="11" trace="DOUBLE" />
+      <node id="7241381882860006763" at="16,0,17,0" concept="3" trace="myName" />
+      <node id="7241381882860006771" at="17,41,18,18" concept="2" />
+      <node id="7241381882860006781" at="20,27,21,18" concept="9" />
+      <node id="7241381882860006789" at="24,28,25,18" concept="9" />
+      <node id="7241381882860006766" at="17,0,20,0" concept="1" trace="ASMPrimitiveType#(Ljava/lang/String;)V" />
+      <node id="7241381882860006777" at="20,0,23,0" concept="7" trace="getName#()Ljava/lang/String;" />
+      <node id="7241381882860006785" at="23,0,27,0" concept="7" trace="toString#()Ljava/lang/String;" />
+      <scope id="7241381882860006770" at="17,41,18,18" />
+      <scope id="7241381882860006780" at="20,27,21,18" />
+      <scope id="7241381882860006788" at="24,28,25,18" />
+      <scope id="7241381882860006766" at="17,0,20,0">
+        <var name="name" id="7241381882860006768" />
+      </scope>
+      <scope id="7241381882860006777" at="20,0,23,0" />
+      <scope id="7241381882860006785" at="23,0,27,0" />
+      <unit id="7241381882860006706" at="6,0,28,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMPrimitiveType" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860006793">
+    <file name="ASMField.java">
+      <node id="7241381882860006795" at="13,0,14,0" concept="3" trace="myField" />
+      <node id="7241381882860006798" at="14,0,15,0" concept="3" trace="myAnnotations" />
+      <node id="7241381882860006802" at="15,0,16,0" concept="3" trace="myType" />
+      <node id="7241381882860006805" at="16,0,17,0" concept="3" trace="myGenericType" />
+      <node id="7241381882860006812" at="17,41,18,20" concept="2" />
+      <node id="7241381882860006827" at="19,45,20,86" concept="2" />
+      <node id="7241381882860006854" at="21,83,22,49" concept="8" />
+      <node id="7241381882860006860" at="22,49,23,30" concept="2" />
+      <node id="7241381882860006867" at="25,5,26,51" concept="2" />
+      <node id="7241381882860006897" at="27,36,28,63" concept="2" />
+      <node id="7241381882860006888" at="29,12,30,29" concept="2" />
+      <node id="7241381882860006912" at="33,27,34,24" concept="9" />
+      <node id="7241381882860006922" at="36,30,37,55" concept="9" />
+      <node id="7241381882860006937" at="39,29,40,54" concept="9" />
+      <node id="7241381882860006952" at="42,32,43,57" concept="9" />
+      <node id="7241381882860006967" at="45,33,46,58" concept="9" />
+      <node id="7241381882860006982" at="48,39,49,63" concept="9" />
+      <node id="7241381882860007001" at="51,29,52,54" concept="9" />
+      <node id="8782008374435591548" at="54,28,55,53" concept="9" />
+      <node id="7241381882860007016" at="57,35,58,52" concept="9" />
+      <node id="7241381882860007031" at="60,40,61,54" concept="9" />
+      <node id="1507995828870743750" at="63,29,64,33" concept="9" />
+      <node id="1507995828870743795" at="66,28,67,25" concept="9" />
+      <node id="7241381882860007044" at="69,28,70,18" concept="9" />
+      <node id="7241381882860007052" at="72,35,73,25" concept="9" />
+      <node id="7241381882860007061" at="75,47,76,133" concept="9" />
+      <node id="7241381882860006886" at="29,10,31,5" concept="0" />
+      <node id="7241381882860006908" at="33,0,36,0" concept="7" trace="getName#()Ljava/lang/String;" />
+      <node id="7241381882860006918" at="36,0,39,0" concept="7" trace="isPrivate#()Z" />
+      <node id="7241381882860006933" at="39,0,42,0" concept="7" trace="isPublic#()Z" />
+      <node id="7241381882860006948" at="42,0,45,0" concept="7" trace="isProtected#()Z" />
+      <node id="7241381882860006963" at="45,0,48,0" concept="7" trace="isDeprecated#()Z" />
+      <node id="7241381882860006978" at="48,0,51,0" concept="7" trace="isPackageProtected#()Z" />
+      <node id="7241381882860006997" at="51,0,54,0" concept="7" trace="isStatic#()Z" />
+      <node id="8782008374435591544" at="54,0,57,0" concept="7" trace="isFinal#()Z" />
+      <node id="7241381882860007012" at="57,0,60,0" concept="7" trace="isEnumConstant#()Z" />
+      <node id="7241381882860007027" at="60,0,63,0" concept="7" trace="isCompilerGenerated#()Z" />
+      <node id="1507995828870743745" at="63,0,66,0" concept="7" trace="hasValue#()Z" />
+      <node id="1507995828870743790" at="66,0,69,0" concept="7" trace="getValue#()Ljava/lang/Object;" />
+      <node id="7241381882860007040" at="69,0,72,0" concept="7" trace="getType#()Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860007048" at="72,0,75,0" concept="7" trace="getGenericType#()Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860007056" at="75,0,78,0" concept="7" trace="getAnnotations#()Ljava/util/List;" />
+      <node id="7241381882860006842" at="20,86,24,7" concept="5" />
+      <node id="7241381882860006878" at="26,51,31,5" concept="6" />
+      <node id="7241381882860006818" at="18,20,25,5" concept="6" />
+      <node id="7241381882860006808" at="17,0,33,0" concept="1" trace="ASMField#(Lorg/jetbrains/org/objectweb/asm/tree/FieldNode;)V" />
+      <scope id="7241381882860006896" at="27,36,28,63" />
+      <scope id="7241381882860006887" at="29,12,30,29" />
+      <scope id="7241381882860006911" at="33,27,34,24" />
+      <scope id="7241381882860006921" at="36,30,37,55" />
+      <scope id="7241381882860006936" at="39,29,40,54" />
+      <scope id="7241381882860006951" at="42,32,43,57" />
+      <scope id="7241381882860006966" at="45,33,46,58" />
+      <scope id="7241381882860006981" at="48,39,49,63" />
+      <scope id="7241381882860007000" at="51,29,52,54" />
+      <scope id="8782008374435591547" at="54,28,55,53" />
+      <scope id="7241381882860007015" at="57,35,58,52" />
+      <scope id="7241381882860007030" at="60,40,61,54" />
+      <scope id="1507995828870743748" at="63,29,64,33" />
+      <scope id="1507995828870743793" at="66,28,67,25" />
+      <scope id="7241381882860007043" at="69,28,70,18" />
+      <scope id="7241381882860007051" at="72,35,73,25" />
+      <scope id="7241381882860007060" at="75,47,76,133" />
+      <scope id="7241381882860006853" at="21,83,23,30">
+        <var name="aa" id="7241381882860006855" />
+      </scope>
+      <scope id="7241381882860006908" at="33,0,36,0" />
+      <scope id="7241381882860006918" at="36,0,39,0" />
+      <scope id="7241381882860006933" at="39,0,42,0" />
+      <scope id="7241381882860006948" at="42,0,45,0" />
+      <scope id="7241381882860006963" at="45,0,48,0" />
+      <scope id="7241381882860006978" at="48,0,51,0" />
+      <scope id="7241381882860006997" at="51,0,54,0" />
+      <scope id="8782008374435591544" at="54,0,57,0" />
+      <scope id="7241381882860007012" at="57,0,60,0" />
+      <scope id="7241381882860007027" at="60,0,63,0" />
+      <scope id="1507995828870743745" at="63,0,66,0" />
+      <scope id="1507995828870743790" at="66,0,69,0" />
+      <scope id="7241381882860007040" at="69,0,72,0" />
+      <scope id="7241381882860007048" at="72,0,75,0" />
+      <scope id="7241381882860007056" at="75,0,78,0" />
+      <scope id="7241381882860006842" at="20,86,24,7">
+        <var name="an" id="7241381882860006851" />
+      </scope>
+      <scope id="7241381882860006826" at="19,45,24,7" />
+      <scope id="7241381882860006811" at="17,41,31,5" />
+      <scope id="7241381882860006808" at="17,0,33,0">
+        <var name="field" id="7241381882860006809" />
+      </scope>
+      <unit id="7241381882860006793" at="12,0,79,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMField" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860007172">
+    <file name="ASMVarArgType.java">
+      <node id="7241381882860007175" at="7,0,8,0" concept="3" trace="myElementType" />
+      <node id="7241381882860007182" at="8,50,9,32" concept="2" />
+      <node id="7241381882860007192" at="11,35,12,25" concept="9" />
+      <node id="7241381882860007178" at="8,0,11,0" concept="1" trace="ASMVarArgType#(Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;)V" />
+      <node id="7241381882860007188" at="11,0,14,0" concept="7" trace="getElementType#()Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <scope id="7241381882860007181" at="8,50,9,32" />
+      <scope id="7241381882860007191" at="11,35,12,25" />
+      <scope id="7241381882860007178" at="8,0,11,0">
+        <var name="elementType" id="7241381882860007179" />
+      </scope>
+      <scope id="7241381882860007188" at="11,0,14,0" />
+      <unit id="7241381882860007172" at="6,0,15,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMVarArgType" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860007196">
+    <file name="NullSignatureVisitor.java">
+      <node id="7241381882860007198" at="9,0,10,0" concept="11" trace="INSTANCE" />
+      <node id="8471909024438077784" at="10,34,11,24" concept="13" />
+      <node id="7241381882860007216" at="17,45,18,16" concept="9" />
+      <node id="7241381882860007222" at="21,49,22,16" concept="9" />
+      <node id="7241381882860007228" at="25,45,26,16" concept="9" />
+      <node id="7241381882860007234" at="29,44,30,16" concept="9" />
+      <node id="7241381882860007240" at="33,48,34,16" concept="9" />
+      <node id="7241381882860007246" at="37,45,38,16" concept="9" />
+      <node id="7241381882860007252" at="41,48,42,16" concept="9" />
+      <node id="7241381882860007270" at="51,44,52,16" concept="9" />
+      <node id="7241381882860007294" at="64,60,65,16" concept="9" />
+      <node id="7241381882860007203" at="10,0,13,0" concept="1" trace="NullSignatureVisitor#()V" />
+      <node id="7241381882860007206" at="13,0,16,0" concept="7" trace="visitFormalTypeParameter#(Ljava/lang/String;)V" />
+      <node id="7241381882860007254" at="44,0,47,0" concept="7" trace="visitBaseType#(C)V" />
+      <node id="7241381882860007260" at="47,0,50,0" concept="7" trace="visitTypeVariable#(Ljava/lang/String;)V" />
+      <node id="7241381882860007272" at="54,0,57,0" concept="7" trace="visitClassType#(Ljava/lang/String;)V" />
+      <node id="7241381882860007278" at="57,0,60,0" concept="7" trace="visitInnerClassType#(Ljava/lang/String;)V" />
+      <node id="7241381882860007284" at="60,0,63,0" concept="7" trace="visitTypeArgument#()V" />
+      <node id="7241381882860007296" at="67,0,70,0" concept="7" trace="visitEnd#()V" />
+      <node id="7241381882860007212" at="16,0,20,0" concept="7" trace="visitClassBound#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007218" at="20,0,24,0" concept="7" trace="visitInterfaceBound#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007224" at="24,0,28,0" concept="7" trace="visitSuperclass#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007230" at="28,0,32,0" concept="7" trace="visitInterface#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007236" at="32,0,36,0" concept="7" trace="visitParameterType#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007242" at="36,0,40,0" concept="7" trace="visitReturnType#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007248" at="40,0,44,0" concept="7" trace="visitExceptionType#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007266" at="50,0,54,0" concept="7" trace="visitArrayType#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007288" at="63,0,67,0" concept="7" trace="visitTypeArgument#(C)Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <scope id="7241381882860007211" at="14,53,14,53" />
+      <scope id="7241381882860007259" at="45,46,45,46" />
+      <scope id="7241381882860007265" at="48,46,48,46" />
+      <scope id="7241381882860007277" at="55,43,55,43" />
+      <scope id="7241381882860007283" at="58,48,58,48" />
+      <scope id="7241381882860007287" at="61,35,61,35" />
+      <scope id="7241381882860007299" at="68,26,68,26" />
+      <scope id="7241381882860007205" at="10,34,11,24" />
+      <scope id="7241381882860007215" at="17,45,18,16" />
+      <scope id="7241381882860007221" at="21,49,22,16" />
+      <scope id="7241381882860007227" at="25,45,26,16" />
+      <scope id="7241381882860007233" at="29,44,30,16" />
+      <scope id="7241381882860007239" at="33,48,34,16" />
+      <scope id="7241381882860007245" at="37,45,38,16" />
+      <scope id="7241381882860007251" at="41,48,42,16" />
+      <scope id="7241381882860007269" at="51,44,52,16" />
+      <scope id="7241381882860007293" at="64,60,65,16" />
+      <scope id="7241381882860007203" at="10,0,13,0" />
+      <scope id="7241381882860007206" at="13,0,16,0">
+        <var name="name" id="7241381882860007209" />
+      </scope>
+      <scope id="7241381882860007254" at="44,0,47,0">
+        <var name="descriptor" id="7241381882860007257" />
+      </scope>
+      <scope id="7241381882860007260" at="47,0,50,0">
+        <var name="name" id="7241381882860007263" />
+      </scope>
+      <scope id="7241381882860007272" at="54,0,57,0">
+        <var name="name" id="7241381882860007275" />
+      </scope>
+      <scope id="7241381882860007278" at="57,0,60,0">
+        <var name="name" id="7241381882860007281" />
+      </scope>
+      <scope id="7241381882860007284" at="60,0,63,0" />
+      <scope id="7241381882860007296" at="67,0,70,0" />
+      <scope id="7241381882860007212" at="16,0,20,0" />
+      <scope id="7241381882860007218" at="20,0,24,0" />
+      <scope id="7241381882860007224" at="24,0,28,0" />
+      <scope id="7241381882860007230" at="28,0,32,0" />
+      <scope id="7241381882860007236" at="32,0,36,0" />
+      <scope id="7241381882860007242" at="36,0,40,0" />
+      <scope id="7241381882860007248" at="40,0,44,0" />
+      <scope id="7241381882860007266" at="50,0,54,0" />
+      <scope id="7241381882860007288" at="63,0,67,0">
+        <var name="wildcard" id="7241381882860007291" />
+      </scope>
+      <unit id="7241381882860007196" at="8,0,71,0" name="jetbrains.mps.baseLanguage.javastub.asm.NullSignatureVisitor" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860007300">
+    <file name="ASMUnboundedType.java">
+      <node id="7241381882860007303" at="7,0,9,0" concept="1" trace="ASMUnboundedType#()V" />
+      <scope id="7241381882860007305" at="7,29,7,29" />
+      <scope id="7241381882860007303" at="7,0,9,0" />
+      <unit id="7241381882860007300" at="6,0,10,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMUnboundedType" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860007306">
+    <file name="TypeUtil.java">
+      <node id="7241381882860007380" at="16,58,17,49" concept="9" />
+      <node id="7241381882860007397" at="21,21,22,37" concept="9" />
+      <node id="7241381882860007402" at="23,24,24,40" concept="9" />
+      <node id="7241381882860007407" at="25,21,26,37" concept="9" />
+      <node id="7241381882860007412" at="27,21,28,37" concept="9" />
+      <node id="7241381882860007417" at="29,22,30,38" concept="9" />
+      <node id="7241381882860007422" at="31,20,32,36" concept="9" />
+      <node id="7241381882860007427" at="33,22,34,38" concept="9" />
+      <node id="7241381882860007432" at="35,21,36,37" concept="9" />
+      <node id="7241381882860007437" at="37,23,38,39" concept="9" />
+      <node id="7241381882860007442" at="39,23,40,53" concept="9" />
+      <node id="7241381882860007453" at="42,9,43,86" concept="8" />
+      <node id="7241381882860007469" at="44,58,45,46" concept="2" />
+      <node id="7241381882860007480" at="46,11,47,24" concept="9" />
+      <node id="7241381882860007482" at="50,5,51,16" concept="9" />
+      <node id="7241381882860007494" at="54,28,55,18" concept="9" />
+      <node id="7241381882860007496" at="56,5,57,60" concept="8" />
+      <node id="7241381882860007502" at="57,60,58,82" concept="8" />
+      <node id="7241381882860008064" at="61,49,62,23" concept="9" />
+      <node id="7241381882860007517" at="64,7,65,31" concept="9" />
+      <node id="7241381882860007532" at="68,28,69,37" concept="9" />
+      <node id="7241381882860007534" at="70,5,71,60" concept="8" />
+      <node id="7241381882860007540" at="71,60,72,100" concept="8" />
+      <node id="7241381882860008067" at="75,52,76,74" concept="8" />
+      <node id="7241381882860008072" at="76,74,77,24" concept="2" />
+      <node id="7241381882860008077" at="77,24,78,17" concept="9" />
+      <node id="7241381882860007557" at="80,7,81,66" concept="8" />
+      <node id="7241381882860007572" at="82,52,83,31" concept="2" />
+      <node id="7241381882860007579" at="84,5,85,17" concept="9" />
+      <node id="7241381882860007588" at="87,88,88,88" concept="8" />
+      <node id="7241381882860007600" at="89,28,90,20" concept="9" />
+      <node id="7241381882860007602" at="91,5,92,60" concept="8" />
+      <node id="7241381882860007615" at="94,0,95,0" concept="3" trace="name" />
+      <node id="7241381882860007618" at="95,0,96,0" concept="3" trace="classBoundVisitor" />
+      <node id="7241381882860007621" at="96,0,97,0" concept="3" trace="interfaceBoundVisitors" />
+      <node id="7241381882860008093" at="99,32,100,18" concept="2" />
+      <node id="7241381882860008097" at="101,9,102,25" concept="2" />
+      <node id="7241381882860008104" at="105,49,106,62" concept="2" />
+      <node id="7241381882860008111" at="106,62,107,33" concept="9" />
+      <node id="7241381882860008116" at="110,53,111,80" concept="8" />
+      <node id="7241381882860008121" at="111,80,112,44" concept="2" />
+      <node id="7241381882860008128" at="112,44,113,23" concept="9" />
+      <node id="7241381882860008138" at="117,27,118,18" concept="2" />
+      <node id="7241381882860008142" at="119,9,120,39" concept="9" />
+      <node id="7241381882860008152" at="124,27,125,18" concept="2" />
+      <node id="7241381882860008156" at="126,9,127,39" concept="9" />
+      <node id="7241381882860008159" at="129,28,130,94" concept="8" />
+      <node id="7241381882860008178" at="131,70,132,45" concept="2" />
+      <node id="5944751885067649571" at="133,9,134,34" concept="8" />
+      <node id="5944751885067649600" at="135,40,136,53" concept="2" />
+      <node id="5944751885067656596" at="137,51,138,69" concept="8" />
+      <node id="5944751885067656620" at="139,75,140,32" concept="2" />
+      <node id="7241381882860008185" at="143,9,144,82" concept="2" />
+      <node id="7241381882860008207" at="144,82,145,20" concept="2" />
+      <node id="7241381882860008213" at="145,20,146,33" concept="2" />
+      <node id="7241381882860008219" at="146,33,147,39" concept="2" />
+      <node id="7241381882860007645" at="149,7,150,18" concept="9" />
+      <node id="7241381882860007659" at="153,28,154,37" concept="9" />
+      <node id="7241381882860007661" at="155,5,156,60" concept="8" />
+      <node id="7241381882860007667" at="156,60,157,100" concept="8" />
+      <node id="7241381882860008226" at="160,52,161,74" concept="8" />
+      <node id="7241381882860008231" at="161,74,162,24" concept="2" />
+      <node id="7241381882860008236" at="162,24,163,17" concept="9" />
+      <node id="7241381882860007684" at="165,7,166,72" concept="8" />
+      <node id="7241381882860007699" at="167,52,168,31" concept="2" />
+      <node id="7241381882860007706" at="169,5,170,17" concept="9" />
+      <node id="7241381882860007719" at="173,28,174,18" concept="9" />
+      <node id="7241381882860007721" at="175,5,176,82" concept="8" />
+      <node id="7241381882860007726" at="176,82,177,60" concept="8" />
+      <node id="7241381882860007732" at="177,60,178,31" concept="2" />
+      <node id="7241381882860007737" at="178,31,179,31" concept="9" />
+      <node id="7241381882860007309" at="182,0,183,0" concept="3" trace="myResult" />
+      <node id="7241381882860007312" at="183,0,184,0" concept="3" trace="myTypes" />
+      <node id="7241381882860007316" at="184,0,185,0" concept="3" trace="myWildcard" />
+      <node id="7241381882860007319" at="185,0,186,0" concept="3" trace="myArrayVisitor" />
+      <node id="7241381882860007747" at="188,44,189,22" concept="2" />
+      <node id="7241381882860007761" at="192,30,193,26" concept="2" />
+      <node id="7241381882860007768" at="193,26,194,15" concept="9" />
+      <node id="7241381882860007778" at="196,51,197,55" concept="8" />
+      <node id="7241381882860007788" at="197,55,198,98" concept="8" />
+      <node id="7241381882860007805" at="199,35,200,86" concept="8" />
+      <node id="7241381882860007815" at="200,86,201,36" concept="2" />
+      <node id="7241381882860007820" at="201,36,202,42" concept="2" />
+      <node id="7241381882860007825" at="203,9,204,34" concept="2" />
+      <node id="3275604661364842497" at="205,60,206,65" concept="8" />
+      <node id="3275604661364851072" at="206,65,207,43" concept="8" />
+      <node id="3275604661365249689" at="207,43,208,37" concept="8" />
+      <node id="3275604661365223605" at="209,52,210,62" concept="2" />
+      <node id="3275604661365224445" at="211,16,212,100" concept="8" />
+      <node id="3275604661365227755" at="212,100,213,40" concept="2" />
+      <node id="3275604661365228664" at="213,40,214,37" concept="2" />
+      <node id="3275604661363994176" at="216,7,217,35" concept="8" />
+      <node id="7241381882860007841" at="218,59,219,69" concept="2" />
+      <node id="7241381882860007861" at="221,41,222,30" concept="2" />
+      <node id="7241381882860007878" at="226,32,227,34" concept="2" />
+      <node id="7241381882860007895" at="229,33,230,22" concept="2" />
+      <node id="7241381882860007909" at="234,30,235,25" concept="2" />
+      <node id="7241381882860007915" at="235,25,236,40" concept="9" />
+      <node id="7241381882860007926" at="238,30,239,25" concept="2" />
+      <node id="7241381882860007932" at="239,25,240,38" concept="9" />
+      <node id="7241381882860007936" at="241,7,242,18" concept="9" />
+      <node id="3275604661364360304" at="245,43,246,50" concept="9" />
+      <node id="3275604661364499918" at="247,14,248,20" concept="9" />
+      <node id="7241381882860007939" at="252,37,253,38" concept="2" />
+      <node id="7241381882860007946" at="256,62,257,28" concept="2" />
+      <node id="7241381882860007952" at="257,28,258,18" concept="9" />
+      <node id="7241381882860007955" at="261,48,262,64" concept="2" />
+      <node id="7241381882860007965" at="265,48,266,41" concept="2" />
+      <node id="7241381882860007973" at="269,46,270,64" concept="9" />
+      <node id="7241381882860007981" at="273,45,274,56" concept="2" />
+      <node id="7241381882860008006" at="278,35,279,62" concept="2" />
+      <node id="7241381882860008017" at="279,62,280,30" concept="2" />
+      <node id="7241381882860008001" at="281,14,282,17" concept="2" />
+      <node id="7241381882860008031" at="286,35,287,62" concept="2" />
+      <node id="7241381882860008042" at="287,62,288,30" concept="2" />
+      <node id="7241381882860008055" at="290,29,291,17" concept="2" />
+      <node id="7241381882860008059" at="292,7,293,22" concept="9" />
+      <node id="7241381882860007373" at="14,0,16,0" concept="1" trace="TypeUtil#()V" />
+      <node id="7241381882860007322" at="186,0,188,0" concept="1" trace="TypeBuilderVisitor#()V" />
+      <node id="3275604661364481420" at="247,12,249,7" concept="0" />
+      <node id="7241381882860007999" at="281,12,283,7" concept="0" />
+      <node id="7241381882860007375" at="16,0,19,0" concept="12" trace="fromDescriptor#(Ljava/lang/String;)Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860007462" at="43,86,46,11" concept="4" />
+      <node id="7241381882860007489" at="53,62,56,5" concept="6" />
+      <node id="7241381882860007527" at="67,72,70,5" concept="6" />
+      <node id="7241381882860007567" at="81,66,84,5" concept="5" />
+      <node id="7241381882860007595" at="88,88,91,5" concept="6" />
+      <node id="7241381882860008086" at="98,57,101,9" concept="6" />
+      <node id="7241381882860008131" at="116,49,119,9" concept="6" />
+      <node id="7241381882860008145" at="123,49,126,9" concept="6" />
+      <node id="7241381882860008171" at="130,94,133,9" concept="5" />
+      <node id="5944751885067656608" at="138,69,141,13" concept="6" />
+      <node id="7241381882860007654" at="152,67,155,5" concept="6" />
+      <node id="7241381882860007694" at="166,72,169,5" concept="5" />
+      <node id="7241381882860007714" at="172,56,175,5" concept="6" />
+      <node id="7241381882860007324" at="188,0,191,0" concept="7" trace="setResult#(Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;)V" />
+      <node id="7241381882860007832" at="217,35,220,7" concept="6" />
+      <node id="7241381882860007856" at="220,7,223,7" concept="6" />
+      <node id="7241381882860007869" at="225,27,228,7" concept="6" />
+      <node id="7241381882860007887" at="228,7,231,7" concept="6" />
+      <node id="7241381882860008048" at="289,7,292,7" concept="6" />
+      <node id="7241381882860007514" at="60,0,64,0" concept="7" trace="visitReturnType#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007754" at="191,42,195,7" concept="6" />
+      <node id="3275604661365224243" at="211,14,215,9" concept="0" />
+      <node id="7241381882860007902" at="233,40,237,7" concept="6" />
+      <node id="7241381882860007919" at="237,7,241,7" concept="6" />
+      <node id="7241381882860007342" at="251,0,255,0" concept="7" trace="visitTypeArgument#()V" />
+      <node id="7241381882860007350" at="260,0,264,0" concept="7" trace="visitBaseType#(C)V" />
+      <node id="7241381882860007355" at="264,0,268,0" concept="7" trace="visitTypeVariable#(Ljava/lang/String;)V" />
+      <node id="7241381882860007360" at="268,0,272,0" concept="7" trace="visitArrayType#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007363" at="272,0,276,0" concept="7" trace="visitClassType#(Ljava/lang/String;)V" />
+      <node id="7241381882860008024" at="285,37,289,7" concept="6" />
+      <node id="7241381882860007630" at="104,0,109,0" concept="7" trace="visitClassBound#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007797" at="198,98,203,9" concept="6" />
+      <node id="3275604661364358360" at="244,42,249,7" concept="6" />
+      <node id="7241381882860007345" at="255,0,260,0" concept="7" trace="visitTypeArgument#(C)Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007507" at="58,82,64,7" concept="2" />
+      <node id="7241381882860007554" at="74,0,80,0" concept="7" trace="visitParameterType#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007633" at="109,0,115,0" concept="7" trace="visitInterfaceBound#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="5944751885067650179" at="136,53,142,11" concept="6" />
+      <node id="7241381882860007681" at="159,0,165,0" concept="7" trace="visitExceptionType#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007993" at="277,28,283,7" concept="6" />
+      <node id="7241381882860007451" at="41,22,48,9" concept="0" />
+      <node id="7241381882860007625" at="97,0,104,0" concept="7" trace="visitFormalTypeParameter#(Ljava/lang/String;)V" />
+      <node id="7241381882860007636" at="115,0,122,0" concept="7" trace="visitReturnType#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860007639" at="122,0,129,0" concept="7" trace="visitSuperclass#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="3275604661365222295" at="208,37,215,9" concept="6" />
+      <node id="3275604661364265408" at="244,0,251,0" concept="7" trace="unwrap#(Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;)Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860007547" at="72,100,80,7" concept="2" />
+      <node id="7241381882860007674" at="157,100,165,7" concept="2" />
+      <node id="7241381882860007334" at="225,0,233,0" concept="7" trace="finish#()V" />
+      <node id="5944751885067649598" at="134,34,143,9" concept="6" />
+      <node id="7241381882860007708" at="172,0,181,0" concept="12" trace="getFieldType#(Ljava/lang/String;)Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860007368" at="276,0,285,0" concept="7" trace="visitEnd#()V" />
+      <node id="7241381882860007371" at="285,0,295,0" concept="7" trace="getResult#()Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860007337" at="233,0,244,0" concept="7" trace="wrap#(Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;)Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860007484" at="53,0,67,0" concept="12" trace="getReturnType#(Ljava/lang/String;)Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860007521" at="67,0,87,0" concept="12" trace="getParameterTypes#(Ljava/lang/String;)Ljava/util/List;" />
+      <node id="7241381882860007642" at="129,0,149,0" concept="7" trace="flush#()V" />
+      <node id="7241381882860007647" at="152,0,172,0" concept="12" trace="getExceptionTypes#(Ljava/lang/String;)Ljava/util/List;" />
+      <node id="7241381882860007769" at="195,7,216,7" concept="6" />
+      <node id="7241381882860007389" at="19,50,50,5" concept="14" />
+      <node id="7241381882860007384" at="19,0,53,0" concept="12" trace="fromType#(Lorg/jetbrains/org/objectweb/asm/Type;)Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860007329" at="191,0,225,0" concept="7" trace="addPart#(Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;)V" />
+      <node id="7241381882860007608" at="92,60,149,7" concept="2" />
+      <node id="7241381882860007581" at="87,0,152,0" concept="12" trace="getFormalTypeParameters#(Ljava/lang/String;)Ljava/util/List;" />
+      <scope id="7241381882860007374" at="14,26,14,26" />
+      <scope id="7241381882860007393" at="49,14,49,14" />
+      <scope id="7241381882860007745" at="186,33,186,33" />
+      <scope id="7241381882860007379" at="16,58,17,49" />
+      <scope id="7241381882860007396" at="21,21,22,37" />
+      <scope id="7241381882860007401" at="23,24,24,40" />
+      <scope id="7241381882860007406" at="25,21,26,37" />
+      <scope id="7241381882860007411" at="27,21,28,37" />
+      <scope id="7241381882860007416" at="29,22,30,38" />
+      <scope id="7241381882860007421" at="31,20,32,36" />
+      <scope id="7241381882860007426" at="33,22,34,38" />
+      <scope id="7241381882860007431" at="35,21,36,37" />
+      <scope id="7241381882860007436" at="37,23,38,39" />
+      <scope id="7241381882860007441" at="39,23,40,53" />
+      <scope id="7241381882860007468" at="44,58,45,46" />
+      <scope id="7241381882860007493" at="54,28,55,18" />
+      <scope id="7241381882860008063" at="61,49,62,23" />
+      <scope id="7241381882860007531" at="68,28,69,37" />
+      <scope id="7241381882860007571" at="82,52,83,31" />
+      <scope id="7241381882860007599" at="89,28,90,20" />
+      <scope id="7241381882860008092" at="99,32,100,18" />
+      <scope id="7241381882860008137" at="117,27,118,18" />
+      <scope id="7241381882860008151" at="124,27,125,18" />
+      <scope id="7241381882860008177" at="131,70,132,45" />
+      <scope id="5944751885067656609" at="139,75,140,32" />
+      <scope id="7241381882860007658" at="153,28,154,37" />
+      <scope id="7241381882860007698" at="167,52,168,31" />
+      <scope id="7241381882860007718" at="173,28,174,18" />
+      <scope id="7241381882860007746" at="188,44,189,22" />
+      <scope id="3275604661365222298" at="209,52,210,62" />
+      <scope id="7241381882860007840" at="218,59,219,69" />
+      <scope id="7241381882860007860" at="221,41,222,30" />
+      <scope id="7241381882860007877" at="226,32,227,34" />
+      <scope id="7241381882860007894" at="229,33,230,22" />
+      <scope id="3275604661364358361" at="245,43,246,50" />
+      <scope id="3275604661364481421" at="247,14,248,20" />
+      <scope id="7241381882860007938" at="252,37,253,38" />
+      <scope id="7241381882860007954" at="261,48,262,64" />
+      <scope id="7241381882860007964" at="265,48,266,41" />
+      <scope id="7241381882860007972" at="269,46,270,64" />
+      <scope id="7241381882860007980" at="273,45,274,56" />
+      <scope id="7241381882860008000" at="281,14,282,17" />
+      <scope id="7241381882860008054" at="290,29,291,17" />
+      <scope id="7241381882860007373" at="14,0,16,0" />
+      <scope id="7241381882860008103" at="105,49,107,33" />
+      <scope id="7241381882860007322" at="186,0,188,0" />
+      <scope id="7241381882860007760" at="192,30,194,15" />
+      <scope id="7241381882860007908" at="234,30,236,40" />
+      <scope id="7241381882860007925" at="238,30,240,38" />
+      <scope id="7241381882860007945" at="256,62,258,18" />
+      <scope id="7241381882860008005" at="278,35,280,30" />
+      <scope id="7241381882860008030" at="286,35,288,30" />
+      <scope id="7241381882860007375" at="16,0,19,0">
+        <var name="desc" id="7241381882860007377" />
+      </scope>
+      <scope id="7241381882860007462" at="43,86,46,11">
+        <var name="i" id="7241381882860007477" />
+      </scope>
+      <scope id="7241381882860008066" at="75,52,78,17">
+        <var name="v" id="7241381882860008068" />
+      </scope>
+      <scope id="7241381882860007567" at="81,66,84,5">
+        <var name="v" id="7241381882860007569" />
+      </scope>
+      <scope id="7241381882860008115" at="110,53,113,23">
+        <var name="visitor" id="7241381882860008117" />
+      </scope>
+      <scope id="7241381882860008171" at="130,94,133,9">
+        <var name="v" id="7241381882860008175" />
+      </scope>
+      <scope id="7241381882860008225" at="160,52,163,17">
+        <var name="v" id="7241381882860008227" />
+      </scope>
+      <scope id="7241381882860007694" at="166,72,169,5">
+        <var name="v" id="7241381882860007696" />
+      </scope>
+      <scope id="7241381882860007324" at="188,0,191,0">
+        <var name="type" id="7241381882860007327" />
+      </scope>
+      <scope id="7241381882860007804" at="199,35,202,42">
+        <var name="parent" id="7241381882860007806" />
+      </scope>
+      <scope id="3275604661365224244" at="211,16,214,37">
+        <var name="newBound" id="3275604661365224446" />
+      </scope>
+      <scope id="7241381882860007514" at="60,0,64,0" />
+      <scope id="7241381882860008085" at="98,57,102,25" />
+      <scope id="7241381882860008130" at="116,49,120,39" />
+      <scope id="7241381882860008144" at="123,49,127,39" />
+      <scope id="5944751885067650180" at="137,51,141,13">
+        <var name="classFormalType" id="5944751885067656597" />
+      </scope>
+      <scope id="7241381882860007342" at="251,0,255,0" />
+      <scope id="7241381882860007350" at="260,0,264,0">
+        <var name="descriptor" id="7241381882860007353" />
+      </scope>
+      <scope id="7241381882860007355" at="264,0,268,0">
+        <var name="name" id="7241381882860007358" />
+      </scope>
+      <scope id="7241381882860007360" at="268,0,272,0" />
+      <scope id="7241381882860007363" at="272,0,276,0">
+        <var name="name" id="7241381882860007366" />
+      </scope>
+      <scope id="7241381882860007452" at="42,9,47,24">
+        <var name="result" id="7241381882860007454" />
+      </scope>
+      <scope id="7241381882860007630" at="104,0,109,0" />
+      <scope id="3275604661364265411" at="244,42,249,7" />
+      <scope id="7241381882860007345" at="255,0,260,0">
+        <var name="wildcard" id="7241381882860007348" />
+      </scope>
+      <scope id="7241381882860007554" at="74,0,80,0" />
+      <scope id="7241381882860007633" at="109,0,115,0" />
+      <scope id="7241381882860007681" at="159,0,165,0" />
+      <scope id="7241381882860007868" at="225,27,231,7" />
+      <scope id="7241381882860007992" at="277,28,283,7" />
+      <scope id="7241381882860007450" at="41,22,48,9" />
+      <scope id="7241381882860007625" at="97,0,104,0">
+        <var name="name" id="7241381882860007628" />
+      </scope>
+      <scope id="7241381882860007636" at="115,0,122,0" />
+      <scope id="7241381882860007639" at="122,0,129,0" />
+      <scope id="5944751885067649599" at="135,40,142,11" />
+      <scope id="7241381882860007713" at="172,56,179,31">
+        <var name="builder" id="7241381882860007722" />
+        <var name="reader" id="7241381882860007727" />
+      </scope>
+      <scope id="3275604661364265408" at="244,0,251,0">
+        <var name="type" id="3275604661364339916" />
+      </scope>
+      <scope id="7241381882860007777" at="196,51,204,34">
+        <var name="ct" id="7241381882860007779" />
+        <var name="replacement" id="7241381882860007789" />
+      </scope>
+      <scope id="7241381882860007334" at="225,0,233,0" />
+      <scope id="7241381882860008023" at="285,37,293,22" />
+      <scope id="7241381882860007708" at="172,0,181,0">
+        <var name="signature" id="7241381882860007711" />
+      </scope>
+      <scope id="7241381882860007901" at="233,40,242,18" />
+      <scope id="7241381882860007368" at="276,0,285,0" />
+      <scope id="3275604661364695680" at="205,60,215,9">
+        <var name="bound" id="3275604661364851073" />
+        <var name="bounded" id="3275604661364842498" />
+        <var name="wrapped" id="3275604661365249690" />
+      </scope>
+      <scope id="7241381882860007371" at="285,0,295,0" />
+      <scope id="7241381882860007337" at="233,0,244,0">
+        <var name="type" id="7241381882860007340" />
+      </scope>
+      <scope id="7241381882860007488" at="53,62,65,31">
+        <var name="builder" id="7241381882860007503" />
+        <var name="reader" id="7241381882860007497" />
+      </scope>
+      <scope id="7241381882860007484" at="53,0,67,0">
+        <var name="signature" id="7241381882860007486" />
+      </scope>
+      <scope id="7241381882860007526" at="67,72,85,17">
+        <var name="reader" id="7241381882860007535" />
+        <var name="types" id="7241381882860007558" />
+        <var name="visitors" id="7241381882860007541" />
+      </scope>
+      <scope id="7241381882860008158" at="129,28,147,39">
+        <var name="formalType" id="5944751885067649572" />
+        <var name="interfaceBounds" id="7241381882860008160" />
+      </scope>
+      <scope id="7241381882860007653" at="152,67,170,17">
+        <var name="reader" id="7241381882860007662" />
+        <var name="types" id="7241381882860007685" />
+        <var name="visitors" id="7241381882860007668" />
+      </scope>
+      <scope id="7241381882860007521" at="67,0,87,0">
+        <var name="signature" id="7241381882860007524" />
+      </scope>
+      <scope id="7241381882860007642" at="129,0,149,0" />
+      <scope id="7241381882860007647" at="152,0,172,0">
+        <var name="signature" id="7241381882860007651" />
+      </scope>
+      <scope id="7241381882860007388" at="19,50,51,16" />
+      <scope id="7241381882860007753" at="191,42,223,7">
+        <var name="wrapped" id="3275604661363994177" />
+      </scope>
+      <scope id="7241381882860007384" at="19,0,53,0">
+        <var name="type" id="7241381882860007386" />
+      </scope>
+      <scope id="7241381882860007329" at="191,0,225,0">
+        <var name="type" id="7241381882860007332" />
+      </scope>
+      <scope id="7241381882860007587" at="87,88,150,18">
+        <var name="reader" id="7241381882860007603" />
+        <var name="result" id="7241381882860007589" />
+      </scope>
+      <scope id="7241381882860007581" at="87,0,152,0">
+        <var name="signature" id="7241381882860007585" />
+      </scope>
+      <unit id="7241381882860007513" at="59,22,64,5" name="jetbrains.mps.baseLanguage.javastub.asm.TypeUtil$1" />
+      <unit id="7241381882860007553" at="73,22,80,5" name="jetbrains.mps.baseLanguage.javastub.asm.TypeUtil$2" />
+      <unit id="7241381882860007680" at="158,22,165,5" name="jetbrains.mps.baseLanguage.javastub.asm.TypeUtil$4" />
+      <unit id="7241381882860007614" at="93,22,149,5" name="jetbrains.mps.baseLanguage.javastub.asm.TypeUtil$3" />
+      <unit id="7241381882860007307" at="181,0,296,0" name="jetbrains.mps.baseLanguage.javastub.asm.TypeUtil$TypeBuilderVisitor" />
+      <unit id="7241381882860007306" at="13,0,297,0" name="jetbrains.mps.baseLanguage.javastub.asm.TypeUtil" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860008653">
+    <file name="ASMType.java">
+      <node id="7241381882860008655" at="7,0,9,0" concept="1" trace="ASMType#()V" />
+      <scope id="7241381882860008657" at="7,20,7,20" />
+      <scope id="7241381882860008655" at="7,0,9,0" />
+      <unit id="7241381882860008653" at="6,0,10,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMType" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860008658">
+    <file name="ASMEnumValue.java">
+      <node id="7241381882860008660" at="7,0,8,0" concept="3" trace="myType" />
+      <node id="7241381882860008663" at="8,0,9,0" concept="3" trace="myConstant" />
+      <node id="7241381882860008672" at="9,54,10,43" concept="2" />
+      <node id="7241381882860008679" at="10,43,11,22" concept="2" />
+      <node id="7241381882860008689" at="13,28,14,18" concept="9" />
+      <node id="7241381882860008697" at="16,31,17,22" concept="9" />
+      <node id="7241381882860008685" at="13,0,16,0" concept="7" trace="getType#()Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860008693" at="16,0,19,0" concept="7" trace="getConstant#()Ljava/lang/String;" />
+      <node id="7241381882860008666" at="9,0,13,0" concept="1" trace="ASMEnumValue#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <scope id="7241381882860008688" at="13,28,14,18" />
+      <scope id="7241381882860008696" at="16,31,17,22" />
+      <scope id="7241381882860008671" at="9,54,11,22" />
+      <scope id="7241381882860008685" at="13,0,16,0" />
+      <scope id="7241381882860008693" at="16,0,19,0" />
+      <scope id="7241381882860008666" at="9,0,13,0">
+        <var name="name" id="7241381882860008669" />
+        <var name="type" id="7241381882860008667" />
+      </scope>
+      <unit id="7241381882860008658" at="6,0,20,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMEnumValue" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860008701">
+    <file name="ASMTypeVariable.java">
+      <node id="7241381882860008704" at="7,0,8,0" concept="3" trace="myName" />
+      <node id="7241381882860008712" at="8,39,9,18" concept="2" />
+      <node id="7241381882860008722" at="11,27,12,18" concept="9" />
+      <node id="7241381882860008730" at="15,28,16,18" concept="9" />
+      <node id="7241381882860008707" at="8,0,11,0" concept="1" trace="ASMTypeVariable#(Ljava/lang/String;)V" />
+      <node id="7241381882860008718" at="11,0,14,0" concept="7" trace="getName#()Ljava/lang/String;" />
+      <node id="7241381882860008726" at="14,0,18,0" concept="7" trace="toString#()Ljava/lang/String;" />
+      <scope id="7241381882860008711" at="8,39,9,18" />
+      <scope id="7241381882860008721" at="11,27,12,18" />
+      <scope id="7241381882860008729" at="15,28,16,18" />
+      <scope id="7241381882860008707" at="8,0,11,0">
+        <var name="name" id="7241381882860008709" />
+      </scope>
+      <scope id="7241381882860008718" at="11,0,14,0" />
+      <scope id="7241381882860008726" at="14,0,18,0" />
+      <unit id="7241381882860008701" at="6,0,19,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMTypeVariable" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860008734">
+    <file name="ASMSuperType.java">
+      <node id="3275604661365124884" at="7,38,8,17" concept="13" />
+      <node id="3275604661365124846" at="7,0,10,0" concept="1" trace="ASMSuperType#(Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;)V" />
+      <scope id="3275604661365124850" at="7,38,8,17" />
+      <scope id="3275604661365124846" at="7,0,10,0">
+        <var name="bound" id="3275604661365124858" />
+      </scope>
+      <unit id="7241381882860008734" at="6,0,11,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMSuperType" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860008759">
+    <file name="ASMFormalTypeParameter.java">
+      <node id="7241381882860008762" at="10,0,11,0" concept="3" trace="myClassBound" />
+      <node id="7241381882860008765" at="11,0,12,0" concept="3" trace="myInterfaceBounds" />
+      <node id="7241381882860008779" at="12,97,13,16" concept="13" />
+      <node id="7241381882860008781" at="13,16,14,30" concept="2" />
+      <node id="7241381882860008787" at="14,30,15,140" concept="2" />
+      <node id="7241381882860008805" at="17,34,18,24" concept="9" />
+      <node id="7241381882860008814" at="20,45,21,59" concept="9" />
+      <node id="7241381882860008801" at="17,0,20,0" concept="7" trace="getClassBound#()Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860008809" at="20,0,23,0" concept="7" trace="getInterfaceBounds#()Ljava/util/List;" />
+      <node id="7241381882860008769" at="12,0,17,0" concept="1" trace="ASMFormalTypeParameter#(Ljava/lang/String;Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;Ljava/util/List;)V" />
+      <scope id="7241381882860008804" at="17,34,18,24" />
+      <scope id="7241381882860008813" at="20,45,21,59" />
+      <scope id="7241381882860008778" at="12,97,15,140" />
+      <scope id="7241381882860008801" at="17,0,20,0" />
+      <scope id="7241381882860008809" at="20,0,23,0" />
+      <scope id="7241381882860008769" at="12,0,17,0">
+        <var name="classBound" id="7241381882860008773" />
+        <var name="interfaceBounds" id="7241381882860008775" />
+        <var name="name" id="7241381882860008771" />
+      </scope>
+      <unit id="7241381882860008759" at="9,0,24,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMFormalTypeParameter" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860008819">
+    <file name="ASMExtendsType.java">
+      <node id="3275604661365124657" at="7,40,8,17" concept="13" />
+      <node id="3275604661365124618" at="7,0,10,0" concept="1" trace="ASMExtendsType#(Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;)V" />
+      <scope id="3275604661365124622" at="7,40,8,17" />
+      <scope id="3275604661365124618" at="7,0,10,0">
+        <var name="bound" id="3275604661365124630" />
+      </scope>
+      <unit id="7241381882860008819" at="6,0,11,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMExtendsType" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860009267">
+    <file name="ASMParameterizedType.java">
+      <node id="7241381882860009270" at="11,0,12,0" concept="3" trace="myRawType" />
+      <node id="7241381882860009273" at="12,0,13,0" concept="3" trace="myTypeArguments" />
+      <node id="7241381882860009286" at="13,87,14,24" concept="2" />
+      <node id="7241381882860009292" at="14,24,15,148" concept="2" />
+      <node id="7241381882860009310" at="17,31,18,21" concept="9" />
+      <node id="7241381882860009319" at="20,43,21,27" concept="2" />
+      <node id="7241381882860009331" at="23,46,24,30" concept="2" />
+      <node id="7241381882860009343" at="26,49,27,57" concept="9" />
+      <node id="7241381882860009352" at="30,28,31,53" concept="9" />
+      <node id="7241381882860009306" at="17,0,20,0" concept="7" trace="getRawType#()Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860009314" at="20,0,23,0" concept="7" trace="addArgument#(Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;)V" />
+      <node id="7241381882860009326" at="23,0,26,0" concept="7" trace="removeArgument#(Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;)V" />
+      <node id="7241381882860009338" at="26,0,29,0" concept="7" trace="getActualTypeArguments#()Ljava/util/List;" />
+      <node id="7241381882860009277" at="13,0,17,0" concept="1" trace="ASMParameterizedType#(Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;Ljava/util/List;)V" />
+      <node id="7241381882860009348" at="29,0,33,0" concept="7" trace="toString#()Ljava/lang/String;" />
+      <scope id="7241381882860009309" at="17,31,18,21" />
+      <scope id="7241381882860009318" at="20,43,21,27" />
+      <scope id="7241381882860009330" at="23,46,24,30" />
+      <scope id="7241381882860009342" at="26,49,27,57" />
+      <scope id="7241381882860009351" at="30,28,31,53" />
+      <scope id="7241381882860009285" at="13,87,15,148" />
+      <scope id="7241381882860009306" at="17,0,20,0" />
+      <scope id="7241381882860009314" at="20,0,23,0">
+        <var name="t" id="7241381882860009316" />
+      </scope>
+      <scope id="7241381882860009326" at="23,0,26,0">
+        <var name="t" id="7241381882860009328" />
+      </scope>
+      <scope id="7241381882860009338" at="26,0,29,0" />
+      <scope id="7241381882860009277" at="13,0,17,0">
+        <var name="rawType" id="7241381882860009279" />
+        <var name="typeArguments" id="7241381882860009281" />
+      </scope>
+      <scope id="7241381882860009348" at="29,0,33,0" />
+      <unit id="7241381882860009267" at="10,0,34,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMParameterizedType" />
+    </file>
+  </root>
+  <root nodeRef="r:eafb5d8e-2952-4826-b4ad-be2b9011f598(jetbrains.mps.baseLanguage.javastub.asm)/7241381882860009362">
+    <file name="ASMClass.java">
+      <node id="7241381882860009409" at="20,0,21,0" concept="3" trace="myNode" />
+      <node id="7241381882860009412" at="21,0,22,0" concept="3" trace="myTypeVariables" />
+      <node id="7241381882860009419" at="22,0,23,0" concept="3" trace="myGenericInterfaces" />
+      <node id="7241381882860009426" at="23,0,24,0" concept="3" trace="myFields" />
+      <node id="7241381882860009433" at="24,0,25,0" concept="3" trace="myMethods" />
+      <node id="7241381882860009440" at="25,0,26,0" concept="3" trace="myConstructors" />
+      <node id="7241381882860009447" at="26,0,27,0" concept="3" trace="myAnnotations" />
+      <node id="7241381882860009451" at="27,0,28,0" concept="3" trace="myGenericSuperclass" />
+      <node id="7241381882860009459" at="28,39,29,29" concept="2" />
+      <node id="7241381882860009466" at="30,9,31,102" concept="2" />
+      <node id="5058383315259648551" at="32,34,33,23" concept="10" />
+      <node id="5058383315259597914" at="33,23,34,13" concept="9" />
+      <node id="7241381882860009537" at="36,35,37,73" concept="8" />
+      <node id="7241381882860010124" at="43,36,44,58" concept="8" />
+      <node id="7241381882860010132" at="44,58,45,80" concept="2" />
+      <node id="7241381882860010144" at="53,36,54,58" concept="8" />
+      <node id="7241381882860010152" at="54,58,55,83" concept="2" />
+      <node id="7241381882860009495" at="61,37,62,83" concept="2" />
+      <node id="7241381882860009523" at="64,61,65,75" concept="2" />
+      <node id="7241381882860009569" at="68,35,69,81" concept="2" />
+      <node id="7241381882860009593" at="71,58,72,37" concept="2" />
+      <node id="7241381882860009614" at="74,61,75,39" concept="8" />
+      <node id="7241381882860009634" at="76,31,77,31" concept="2" />
+      <node id="7241381882860009626" at="78,14,79,26" concept="2" />
+      <node id="7241381882860009658" at="82,83,83,177" concept="8" />
+      <node id="7241381882860009696" at="83,177,84,57" concept="2" />
+      <node id="7241381882860009726" at="86,84,87,51" concept="8" />
+      <node id="7241381882860009732" at="87,51,88,32" concept="2" />
+      <node id="7241381882860009760" at="92,86,93,51" concept="8" />
+      <node id="7241381882860009766" at="93,51,94,32" concept="2" />
+      <node id="7241381882860009777" at="99,31,100,55" concept="9" />
+      <node id="303301571174692719" at="102,29,103,53" concept="9" />
+      <node id="7241381882860009792" at="105,29,106,53" concept="9" />
+      <node id="7241381882860009807" at="108,28,109,52" concept="9" />
+      <node id="7241381882860009822" at="111,33,112,57" concept="9" />
+      <node id="1043983806974678759" at="114,45,115,59" concept="9" />
+      <node id="7241381882860009837" at="117,27,118,52" concept="9" />
+      <node id="9052093979233583444" at="121,30,122,16" concept="9" />
+      <node id="7241381882860009847" at="123,5,124,41" concept="9" />
+      <node id="7894199968368685031" at="126,49,127,31" concept="9" />
+      <node id="7241381882860009862" at="129,52,130,57" concept="9" />
+      <node id="7241381882860009872" at="132,47,133,61" concept="9" />
+      <node id="7241381882860009882" at="135,47,136,133" concept="9" />
+      <node id="7241381882860009898" at="138,41,139,31" concept="9" />
+      <node id="7241381882860009907" at="141,45,142,50" concept="9" />
+      <node id="7241381882860009917" at="144,47,145,51" concept="9" />
+      <node id="7241381882860009927" at="147,52,148,56" concept="9" />
+      <node id="7241381882860009386" at="151,0,152,0" concept="3" trace="myName" />
+      <node id="7241381882860009388" at="152,0,153,0" concept="3" trace="myParameters" />
+      <node id="7241381882860009391" at="153,0,154,0" concept="3" trace="myParentVisitor" />
+      <node id="7241381882860009989" at="156,90,157,38" concept="2" />
+      <node id="7241381882860010037" at="165,55,166,70" concept="2" />
+      <node id="7241381882860010047" at="167,13,168,72" concept="2" />
+      <node id="7241381882860010066" at="173,40,174,56" concept="8" />
+      <node id="7241381882860010083" at="175,55,176,70" concept="2" />
+      <node id="7241381882860010093" at="177,13,178,90" concept="2" />
+      <node id="7241381882860010010" at="184,45,185,38" concept="2" />
+      <node id="7241381882860009624" at="78,12,80,7" concept="0" />
+      <node id="7241381882860009393" at="154,0,156,0" concept="1" trace="ClassifierSignatureVisitor#()V" />
+      <node id="7241381882860009486" at="60,12,63,7" concept="6" />
+      <node id="7241381882860009511" at="63,7,66,7" concept="5" />
+      <node id="7241381882860009560" at="67,5,70,5" concept="6" />
+      <node id="7241381882860009581" at="70,5,73,5" concept="5" />
+      <node id="7241381882860009773" at="99,0,102,0" concept="7" trace="isAbstract#()Z" />
+      <node id="303301571174692715" at="102,0,105,0" concept="7" trace="isStatic#()Z" />
+      <node id="7241381882860009788" at="105,0,108,0" concept="7" trace="isPublic#()Z" />
+      <node id="7241381882860009803" at="108,0,111,0" concept="7" trace="isFinal#()Z" />
+      <node id="7241381882860009818" at="111,0,114,0" concept="7" trace="isDeprecated#()Z" />
+      <node id="1043983806974577004" at="114,0,117,0" concept="7" trace="getClassifierKind#()Ljetbrains/mps/stubs/javastub/classpath/ClassifierKind;" />
+      <node id="7241381882860009833" at="117,0,120,0" concept="7" trace="getName#()Ljava/lang/String;" />
+      <node id="9052093979232890792" at="120,29,123,5" concept="6" />
+      <node id="7894199968368685027" at="126,0,129,0" concept="7" trace="getInnerClasses#()Ljava/util/List;" />
+      <node id="7241381882860009857" at="129,0,132,0" concept="7" trace="getTypeParameters#()Ljava/util/List;" />
+      <node id="7241381882860009867" at="132,0,135,0" concept="7" trace="getGenericInterfaces#()Ljava/util/List;" />
+      <node id="7241381882860009877" at="135,0,138,0" concept="7" trace="getAnnotations#()Ljava/util/List;" />
+      <node id="7241381882860009894" at="138,0,141,0" concept="7" trace="getGenericSuperclass#()Ljetbrains/mps/baseLanguage/javastub/asm/ASMType;" />
+      <node id="7241381882860009902" at="141,0,144,0" concept="7" trace="getDeclaredFields#()Ljava/util/List;" />
+      <node id="7241381882860009912" at="144,0,147,0" concept="7" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="7241381882860009922" at="147,0,150,0" concept="7" trace="getDeclaredConstructors#()Ljava/util/List;" />
+      <node id="7241381882860009395" at="156,0,159,0" concept="1" trace="ClassifierSignatureVisitor#(Ljetbrains/mps/baseLanguage/javastub/asm/ASMClass/ClassifierSignatureVisitor;)V" />
+      <node id="7241381882860010028" at="164,40,167,13" concept="6" />
+      <node id="7241381882860010074" at="174,56,177,13" concept="6" />
+      <node id="7241381882860009714" at="85,46,89,9" concept="5" />
+      <node id="7241381882860009748" at="91,48,95,9" concept="5" />
+      <node id="7241381882860009404" at="183,0,187,0" concept="7" trace="visitClassType#(Ljava/lang/String;)V" />
+      <node id="7241381882860010112" at="42,0,47,0" concept="7" trace="visitEnd#()V" />
+      <node id="7241381882860010120" at="52,0,57,0" concept="7" trace="visitEnd#()V" />
+      <node id="7241381882860009620" at="75,39,80,7" concept="6" />
+      <node id="5058383315259429772" at="29,29,35,5" concept="15" />
+      <node id="7241381882860009705" at="84,57,90,7" concept="6" />
+      <node id="7241381882860009739" at="90,7,96,7" concept="6" />
+      <node id="7241381882860009843" at="120,0,126,0" concept="7" trace="getFqName#()Ljava/lang/String;" />
+      <node id="7241381882860010021" at="163,52,169,11" concept="6" />
+      <node id="7241381882860010108" at="40,51,47,12" concept="9" />
+      <node id="7241381882860010116" at="50,50,57,12" concept="9" />
+      <node id="7241381882860009484" at="60,10,67,5" concept="0" />
+      <node id="7241381882860010059" at="172,32,179,11" concept="6" />
+      <node id="7241381882860009602" at="73,5,81,5" concept="5" />
+      <node id="7241381882860010000" at="162,0,171,0" concept="7" trace="visitTypeVariable#(Ljava/lang/String;)V" />
+      <node id="7241381882860009554" at="39,0,49,0" concept="7" trace="visitSuperclass#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860009557" at="49,0,59,0" concept="7" trace="visitInterface#()Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860010005" at="171,0,181,0" concept="7" trace="visitEnd#()V" />
+      <node id="7241381882860009641" at="81,5,97,5" concept="6" />
+      <node id="7241381882860009996" at="160,62,181,8" concept="9" />
+      <node id="7241381882860009547" at="37,73,59,9" concept="2" />
+      <node id="7241381882860009399" at="159,0,183,0" concept="7" trace="visitTypeArgument#(C)Lorg/jetbrains/org/objectweb/asm/signature/SignatureVisitor;" />
+      <node id="7241381882860009476" at="35,5,67,5" concept="6" />
+      <node id="7241381882860009454" at="28,0,99,0" concept="1" trace="ASMClass#(Lorg/jetbrains/org/objectweb/asm/ClassReader;)V" />
+      <scope id="7241381882860009987" at="154,41,154,41" />
+      <scope id="5058383315259429774" at="30,9,31,102" />
+      <scope id="7241381882860009494" at="61,37,62,83" />
+      <scope id="7241381882860009522" at="64,61,65,75" />
+      <scope id="7241381882860009568" at="68,35,69,81" />
+      <scope id="7241381882860009592" at="71,58,72,37" />
+      <scope id="7241381882860009633" at="76,31,77,31" />
+      <scope id="7241381882860009625" at="78,14,79,26" />
+      <scope id="7241381882860009776" at="99,31,100,55" />
+      <scope id="303301571174692718" at="102,29,103,53" />
+      <scope id="7241381882860009791" at="105,29,106,53" />
+      <scope id="7241381882860009806" at="108,28,109,52" />
+      <scope id="7241381882860009821" at="111,33,112,57" />
+      <scope id="1043983806974577008" at="114,45,115,59" />
+      <scope id="7241381882860009836" at="117,27,118,52" />
+      <scope id="9052093979232890795" at="121,30,122,16" />
+      <scope id="7894199968368685030" at="126,49,127,31" />
+      <scope id="7241381882860009861" at="129,52,130,57" />
+      <scope id="7241381882860009871" at="132,47,133,61" />
+      <scope id="7241381882860009881" at="135,47,136,133" />
+      <scope id="7241381882860009897" at="138,41,139,31" />
+      <scope id="7241381882860009906" at="141,45,142,50" />
+      <scope id="7241381882860009916" at="144,47,145,51" />
+      <scope id="7241381882860009926" at="147,52,148,56" />
+      <scope id="7241381882860009988" at="156,90,157,38" />
+      <scope id="7241381882860010036" at="165,55,166,70" />
+      <scope id="7241381882860010082" at="175,55,176,70" />
+      <scope id="7241381882860010009" at="184,45,185,38" />
+      <scope id="5058383315259429775" at="32,0,34,13">
+        <var name="e" id="5058383315259429777" />
+      </scope>
+      <scope id="5058383315259429781" at="32,34,34,13" />
+      <scope id="7241381882860010123" at="43,36,45,80">
+        <var name="cls" id="7241381882860010125" />
+      </scope>
+      <scope id="7241381882860010143" at="53,36,55,83">
+        <var name="cls" id="7241381882860010145" />
+      </scope>
+      <scope id="7241381882860009725" at="86,84,88,32">
+        <var name="aa" id="7241381882860009727" />
+      </scope>
+      <scope id="7241381882860009759" at="92,86,94,32">
+        <var name="aa" id="7241381882860009761" />
+      </scope>
+      <scope id="7241381882860009393" at="154,0,156,0" />
+      <scope id="7241381882860009511" at="63,7,66,7">
+        <var name="intfc" id="7241381882860009520" />
+      </scope>
+      <scope id="7241381882860009581" at="70,5,73,5">
+        <var name="fn" id="7241381882860009590" />
+      </scope>
+      <scope id="7241381882860009773" at="99,0,102,0" />
+      <scope id="303301571174692715" at="102,0,105,0" />
+      <scope id="7241381882860009788" at="105,0,108,0" />
+      <scope id="7241381882860009803" at="108,0,111,0" />
+      <scope id="7241381882860009818" at="111,0,114,0" />
+      <scope id="1043983806974577004" at="114,0,117,0" />
+      <scope id="7241381882860009833" at="117,0,120,0" />
+      <scope id="7894199968368685027" at="126,0,129,0" />
+      <scope id="7241381882860009857" at="129,0,132,0" />
+      <scope id="7241381882860009867" at="132,0,135,0" />
+      <scope id="7241381882860009877" at="135,0,138,0" />
+      <scope id="7241381882860009894" at="138,0,141,0" />
+      <scope id="7241381882860009902" at="141,0,144,0" />
+      <scope id="7241381882860009912" at="144,0,147,0" />
+      <scope id="7241381882860009922" at="147,0,150,0" />
+      <scope id="7241381882860009395" at="156,0,159,0">
+        <var name="parentVisitor" id="7241381882860009397" />
+      </scope>
+      <scope id="7241381882860009713" at="85,46,89,9" />
+      <scope id="7241381882860009714" at="85,46,89,9">
+        <var name="an" id="7241381882860009723" />
+      </scope>
+      <scope id="7241381882860009747" at="91,48,95,9" />
+      <scope id="7241381882860009748" at="91,48,95,9">
+        <var name="an" id="7241381882860009757" />
+      </scope>
+      <scope id="7241381882860009846" at="120,29,124,41" />
+      <scope id="7241381882860010027" at="164,40,168,72" />
+      <scope id="7241381882860009404" at="183,0,187,0">
+        <var name="name" id="7241381882860009407" />
+      </scope>
+      <scope id="7241381882860010112" at="42,0,47,0" />
+      <scope id="7241381882860010120" at="52,0,57,0" />
+      <scope id="7241381882860010065" at="173,40,178,90">
+        <var name="cls" id="7241381882860010067" />
+      </scope>
+      <scope id="7241381882860009485" at="60,12,66,7" />
+      <scope id="7241381882860009613" at="74,61,80,7">
+        <var name="am" id="7241381882860009615" />
+      </scope>
+      <scope id="7241381882860009843" at="120,0,126,0" />
+      <scope id="7241381882860010020" at="163,52,169,11" />
+      <scope id="7241381882860010107" at="40,51,47,12" />
+      <scope id="7241381882860010115" at="50,50,57,12" />
+      <scope id="7241381882860010058" at="172,32,179,11" />
+      <scope id="7241381882860009602" at="73,5,81,5">
+        <var name="mn" id="7241381882860009611" />
+      </scope>
+      <scope id="7241381882860010000" at="162,0,171,0">
+        <var name="name" id="7241381882860010003" />
+      </scope>
+      <scope id="7241381882860009554" at="39,0,49,0" />
+      <scope id="7241381882860009557" at="49,0,59,0" />
+      <scope id="7241381882860010005" at="171,0,181,0" />
+      <scope id="7241381882860009657" at="82,83,96,7">
+        <var name="size" id="7241381882860009659" />
+      </scope>
+      <scope id="7241381882860009995" at="160,62,181,8" />
+      <scope id="7241381882860009536" at="36,35,59,9">
+        <var name="signReader" id="7241381882860009538" />
+      </scope>
+      <scope id="7241381882860009399" at="159,0,183,0">
+        <var name="wildcard" id="7241381882860009402" />
+      </scope>
+      <scope id="7241381882860009458" at="28,39,97,5" />
+      <scope id="7241381882860009454" at="28,0,99,0">
+        <var name="reader" id="7241381882860009456" />
+      </scope>
+      <unit id="7241381882860010111" at="41,21,47,11" name="jetbrains.mps.baseLanguage.javastub.asm.ASMClass$2" />
+      <unit id="7241381882860010119" at="51,21,57,11" name="jetbrains.mps.baseLanguage.javastub.asm.ASMClass$2" />
+      <unit id="7241381882860009999" at="161,17,181,7" name="jetbrains.mps.baseLanguage.javastub.asm.ASMClass$1" />
+      <unit id="7241381882860009553" at="38,28,59,7" name="jetbrains.mps.baseLanguage.javastub.asm.ASMClass$1" />
+      <unit id="7241381882860002145" at="150,0,188,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMClass$ClassifierSignatureVisitor" />
+      <unit id="7241381882860009362" at="19,0,189,0" name="jetbrains.mps.baseLanguage.javastub.asm.ASMClass" />
+    </file>
+  </root>
+</debug-info>
+
